@@ -16,7 +16,7 @@ void main() {
       expect(AdaptiveIcons.search, equals(Icons.search));
       expect(AdaptiveIcons.refresh, equals(Icons.refresh));
 
-      // 3. Reset the override (CRITICAL!)
+      // 3. Reset the override 
       debugDefaultTargetPlatformOverride = null;
     });
 
