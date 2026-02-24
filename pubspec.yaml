@@ -1,5 +1,5 @@
 name: adaptive_icons
-description: "A new Flutter package project."
+description: "Platform-aware adaptive icons for Flutter (Cupertino on Apple, Material on Android)."
 version: 0.0.1
 homepage:
 
