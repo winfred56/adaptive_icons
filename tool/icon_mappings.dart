@@ -11,6 +11,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.add_circle',
     'ios': 'CupertinoIcons.add_circled_solid',
   },
+  'airplane': {
+    'android': 'Icons.flight',
+    'ios': 'CupertinoIcons.airplane',
+  },
+  'alarm': {
+    'android': 'Icons.alarm',
+    'ios': 'CupertinoIcons.alarm',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
@@ -42,6 +50,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'calendar_today_outlined': {
     'android': 'Icons.calendar_today_outlined',
     'ios': 'CupertinoIcons.calendar_today',
+  },
+  'cell_tower': {
+    'android': 'Icons.cell_tower',
+    'ios': 'CupertinoIcons.antenna_radiowaves_left_right',
   },
   'document_scanner': {
     'android': 'Icons.document_scanner',
