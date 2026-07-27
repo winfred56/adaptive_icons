@@ -139,6 +139,30 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.north_east',
     'ios': 'CupertinoIcons.arrow_up_right',
   },
+  'at': {
+    'android': 'Icons.alternate_email',
+    'ios': 'CupertinoIcons.at',
+  },
+  'backward': {
+    'android': 'Icons.fast_rewind_outlined',
+    'ios': 'CupertinoIcons.backward',
+  },
+  'backward_fill': {
+    'android': 'Icons.fast_rewind',
+    'ios': 'CupertinoIcons.backward_fill',
+  },
+  'bag': {
+    'android': 'Icons.work_outline',
+    'ios': 'CupertinoIcons.bag',
+  },
+  'bag_fill': {
+    'android': 'Icons.work',
+    'ios': 'CupertinoIcons.bag_fill',
+  },
+  'bandage': {
+    'android': 'Icons.healing',
+    'ios': 'CupertinoIcons.bandage',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
@@ -155,6 +179,102 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.battery_full',
     'ios': 'CupertinoIcons.battery_100',
   },
+  'bed_double': {
+    'android': 'Icons.king_bed_outlined',
+    'ios': 'CupertinoIcons.bed_double',
+  },
+  'bed_double_fill': {
+    'android': 'Icons.king_bed',
+    'ios': 'CupertinoIcons.bed_double_fill',
+  },
+  'bell': {
+    'android': 'Icons.notifications_outlined',
+    'ios': 'CupertinoIcons.bell',
+  },
+  'bell_fill': {
+    'android': 'Icons.notifications',
+    'ios': 'CupertinoIcons.bell_fill',
+  },
+  'bell_circle': {
+    'android': 'Icons.circle_notifications_outlined',
+    'ios': 'CupertinoIcons.bell_circle',
+  },
+  'bell_circle_fill': {
+    'android': 'Icons.circle_notifications',
+    'ios': 'CupertinoIcons.bell_circle_fill',
+  },
+  'bell_slash': {
+    'android': 'Icons.notifications_off_outlined',
+    'ios': 'CupertinoIcons.bell_slash',
+  },
+  'bell_slash_fill': {
+    'android': 'Icons.notifications_off',
+    'ios': 'CupertinoIcons.bell_slash_fill',
+  },
+  'bin_xmark': {
+    'android': 'Icons.delete_forever_outlined',
+    'ios': 'CupertinoIcons.bin_xmark',
+  },
+  'bin_xmark_fill': {
+    'android': 'Icons.delete_forever',
+    'ios': 'CupertinoIcons.bin_xmark_fill',
+  },
+  'bitcoin': {
+    'android': 'Icons.currency_bitcoin',
+    'ios': 'CupertinoIcons.bitcoin',
+  },
+  'bluetooth': {
+    'android': 'Icons.bluetooth',
+    'ios': 'CupertinoIcons.bluetooth',
+  },
+  'bold': {
+    'android': 'Icons.format_bold',
+    'ios': 'CupertinoIcons.bold',
+  },
+  'bolt': {
+    'android': 'Icons.bolt',
+    'ios': 'CupertinoIcons.bolt',
+  },
+  'book': {
+    'android': 'Icons.book_outlined',
+    'ios': 'CupertinoIcons.book',
+  },
+  'book_fill': {
+    'android': 'Icons.book',
+    'ios': 'CupertinoIcons.book_fill',
+  },
+  'bookmark': {
+    'android': 'Icons.bookmark_outline',
+    'ios': 'CupertinoIcons.bookmark',
+  },
+  'bookmark_fill': {
+    'android': 'Icons.bookmark',
+    'ios': 'CupertinoIcons.bookmark_fill',
+  },
+  'briefcase': {
+    'android': 'Icons.business_center_outlined',
+    'ios': 'CupertinoIcons.briefcase',
+  },
+  'briefcase_fill': {
+    'android': 'Icons.business_center',
+    'ios': 'CupertinoIcons.briefcase_fill',
+  },
+  'brightness': {
+    'android': 'Icons.light_mode_outlined',
+    'ios': 'CupertinoIcons.brightness',
+  },
+  'brightness_fill': {
+    'android': 'Icons.light_mode',
+    'ios': 'CupertinoIcons.brightness_solid',
+  },
+  'bubble_left': {
+    'android': 'Icons.chat_bubble_outline_outlined',
+    'ios': 'CupertinoIcons.bubble_left',
+  },
+  'bubble_left_fill': {
+    'android': 'Icons.chat_bubble',
+    'ios': 'CupertinoIcons.bubble_left_fill',
+  },
   'bus': {
     'android': 'Icons.directions_bus',
     'ios': 'CupertinoIcons.bus',
@@ -170,6 +290,26 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'calendar_today_outlined': {
     'android': 'Icons.calendar_today_outlined',
     'ios': 'CupertinoIcons.calendar_today',
+  },
+  'camera': {
+    'android': 'Icons.camera_outlined',
+    'ios': 'CupertinoIcons.camera',
+  },
+  'camera_fill': {
+    'android': 'Icons.camera',
+    'ios': 'CupertinoIcons.camera_fill',
+  },
+  'camera_rotate': {
+    'android': 'Icons.cameraswitch_outlined',
+    'ios': 'CupertinoIcons.camera_rotate',
+  },
+  'camera_rotate_fill': {
+    'android': 'Icons.cameraswitch',
+    'ios': 'CupertinoIcons.camera_rotate_fill',
+  },
+  'capslock': {
+    'android': 'Icons.keyboard_capslock',
+    'ios': 'CupertinoIcons.capslock',
   },
   'cell_tower': {
     'android': 'Icons.cell_tower',
