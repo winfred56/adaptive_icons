@@ -1,4 +1,8 @@
 const Map<String, Map<String, dynamic>> iconMappings = {
+  'bus': {
+    'android': 'Icons.directions_bus',
+    'ios': 'CupertinoIcons.bus',
+  },
   'calendar': {
     'android': 'Icons.calendar_month',
     'ios': 'CupertinoIcons.calendar',
