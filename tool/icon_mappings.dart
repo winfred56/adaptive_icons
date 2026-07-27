@@ -99,6 +99,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.access_time',
     'ios': 'CupertinoIcons.time',
   },
+  'time_fill': {
+    'android': 'Icons.access_time_filled',
+    'ios': 'CupertinoIcons.time_solid',
+  },
   'timelapse': {
     'android': 'Icons.timelapse',
     'ios': 'CupertinoIcons.timelapse',
