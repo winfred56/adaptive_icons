@@ -55,6 +55,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.visibility_off_rounded',
     'ios': 'CupertinoIcons.eye_slash_fill',
   },
+  'file_copy': {
+    'android': 'Icons.file_copy',
+    'ios': 'CupertinoIcons.doc_on_clipboard',
+  },
+  'file_copy_fill': {
+    'android': 'Icons.file_copy_rounded',
+    'ios': 'CupertinoIcons.doc_on_clipboard_fill',
+  },
   'home': {
     'android': 'Icons.home',
     'ios': 'CupertinoIcons.home',
