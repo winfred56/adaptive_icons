@@ -67,10 +67,6 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.arrow_circle_left',
     'ios': 'CupertinoIcons.arrow_left_circle_fill',
   },
-  'arrow_up_circle': {
-    'android': 'Icons.arrow_circle_up',
-    'ios': 'CupertinoIcons.arrow_up_circle',
-  },
   'arrow_merge': {
     'android': 'Icons.merge',
     'ios': 'CupertinoIcons.arrow_merge',
@@ -126,6 +122,22 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'arrow_up_bin_fill': {
     'android': 'Icons.restore_from_trash',
     'ios': 'CupertinoIcons.arrow_up_bin_fill',
+  },
+  'arrow_up_circle': {
+    'android': 'Icons.arrow_circle_up_outlined',
+    'ios': 'CupertinoIcons.arrow_up_circle',
+  },
+  'arrow_up_down': {
+    'android': 'Icons.height',
+    'ios': 'CupertinoIcons.arrow_up_down',
+  },
+  'arrow_up_left': {
+    'android': 'Icons.north_west',
+    'ios': 'CupertinoIcons.arrow_up_left',
+  },
+  'arrow_up_right': {
+    'android': 'Icons.north_east',
+    'ios': 'CupertinoIcons.arrow_up_right',
   },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
@@ -294,6 +306,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'timelapse': {
     'android': 'Icons.timelapse',
     'ios': 'CupertinoIcons.timelapse',
+  },
+  'upload_file': {
+    'android': 'Icons.upload_file',
+    'ios': 'CupertinoIcons.arrow_up_doc',
+  },
+  'upload_file_fill': {
+    'android': 'Icons.upload_file_rounded',
+    'ios': 'CupertinoIcons.arrow_up_doc_fill',
   },
   // Add more here...
 };
