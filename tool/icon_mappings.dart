@@ -19,6 +19,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.alarm',
     'ios': 'CupertinoIcons.alarm',
   },
+  'archivebox': {
+    'android': 'Icons.inventory_2_outlined',
+    'ios': 'CupertinoIcons.archivebox',
+  },
+  'archivebox_fill': {
+    'android': 'Icons.inventory_2',
+    'ios': 'CupertinoIcons.archivebox',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
