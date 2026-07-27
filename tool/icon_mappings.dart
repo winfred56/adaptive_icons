@@ -20,7 +20,7 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'ios': 'CupertinoIcons.doc_text_viewfinder',
   },
   'doc_text_search': {
-    'android': 'Icons.content_paste_search',
+    'android': 'Icons.plagiarism_outlined',
     'ios': 'CupertinoIcons.doc_text_search',
   },
   'email': {
@@ -38,6 +38,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'envelope_badge_fill': {
     'android': 'Icons.mark_email_unread',
     'ios': 'CupertinoIcons.envelope_badge_fill',
+  },
+  'envelope_open': {
+    'android': 'Icons.drafts_outlined',
+    'ios': 'CupertinoIcons.envelope_open',
+  },
+  'envelope_open_fill': {
+    'android': 'Icons.drafts',
+    'ios': 'CupertinoIcons.envelope_open_fill',
   },
   'eye': {
     'android': 'Icons.visibility_outlined',
