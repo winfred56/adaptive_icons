@@ -39,6 +39,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.visibility_off_rounded',
     'ios': 'CupertinoIcons.eye_slash_fill',
   },
+  'home': {
+    'android': 'Icons.home',
+    'ios': 'CupertinoIcons.home',
+  },
   'lock': {
     'android': 'Icons.lock_outlined',
     'ios': 'CupertinoIcons.lock',
