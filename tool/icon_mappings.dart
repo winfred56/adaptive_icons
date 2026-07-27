@@ -379,6 +379,38 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.verified_user',
     'ios': 'CupertinoIcons.checkmark_shield_fill',
   },
+  'chevron_back': {
+    'android': 'Icons.chevron_left',
+    'ios': 'CupertinoIcons.chevron_back',
+  },
+  'circle': {
+    'android': 'Icons.circle_outlined',
+    'ios': 'CupertinoIcons.circle',
+  },
+  'circle_fill': {
+    'android': 'Icons.circle',
+    'ios': 'CupertinoIcons.circle_fill',
+  },
+  'clear': {
+    'android': 'Icons.close',
+    'ios': 'CupertinoIcons.clear',
+  },
+  'clear_circled_fill': {
+    'android': 'Icons.cancel',
+    'ios': 'CupertinoIcons.clear_circled_solid',
+  },
+  'cloud': {
+    'android': 'Icons.cloud_outlined',
+    'ios': 'CupertinoIcons.cloud',
+  },
+  'cloud_fill': {
+    'android': 'Icons.cloud',
+    'ios': 'CupertinoIcons.cloud_fill',
+  },
+  'cloud_snow_fill': {
+    'android': 'Icons.cloudy_snowing',
+    'ios': 'CupertinoIcons.cloud_snow_fill',
+  },
   'document_scanner': {
     'android': 'Icons.document_scanner',
     'ios': 'CupertinoIcons.doc_text_viewfinder',
