@@ -403,6 +403,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.cloud_outlined',
     'ios': 'CupertinoIcons.cloud',
   },
+  'cloud_download': {
+    'android': 'Icons.cloud_download_outlined',
+    'ios': 'CupertinoIcons.cloud_download',
+  },
+  'cloud_download_fill': {
+    'android': 'Icons.cloud_download',
+    'ios': 'CupertinoIcons.cloud_download_fill',
+  },
   'cloud_fill': {
     'android': 'Icons.cloud',
     'ios': 'CupertinoIcons.cloud_fill',
@@ -411,6 +419,42 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.cloudy_snowing',
     'ios': 'CupertinoIcons.cloud_snow_fill',
   },
+  'cloud_upload': {
+    'android': 'Icons.cloud_upload_outlined',
+    'ios': 'CupertinoIcons.cloud_upload',
+  },
+  'cloud_upload_fill': {
+    'android': 'Icons.cloud_upload',
+    'ios': 'CupertinoIcons.cloud_upload_fill',
+  },
+  'compass': {
+    'android': 'Icons.explore_outlined',
+    'ios': 'CupertinoIcons.compass',
+  },
+  'compass_fill': {
+    'android': 'Icons.explore',
+    'ios': 'CupertinoIcons.compass_fill',
+  },
+  'creditcard': {
+    'android': 'Icons.credit_card',
+    'ios': 'CupertinoIcons.creditcard',
+  },
+  'crop': {
+    'android': 'Icons.crop',
+    'ios': 'CupertinoIcons.crop',
+  },
+  'crop_rotate': {
+    'android': 'Icons.crop_rotate',
+    'ios': 'CupertinoIcons.crop_rotate',
+  },
+  'delete': {
+    'android': 'Icons.delete_outline',
+    'ios': 'CupertinoIcons.delete',
+  },
+  'delete_fill': {
+    'android': 'Icons.delete',
+    'ios': 'CupertinoIcons.delete_solid',
+  },
   'document_scanner': {
     'android': 'Icons.document_scanner',
     'ios': 'CupertinoIcons.doc_text_viewfinder',
@@ -418,6 +462,22 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'doc_text_search': {
     'android': 'Icons.plagiarism_outlined',
     'ios': 'CupertinoIcons.doc_text_search',
+  },
+  'dot_radiowaves_left_right': {
+    'android': 'Icons.sensors',
+    'ios': 'CupertinoIcons.dot_radiowaves_left_right',
+  },
+  'drop': {
+    'android': 'Icons.water_drop_outlined',
+    'ios': 'CupertinoIcons.drop',
+  },
+  'drop_fill': {
+    'android': 'Icons.water_drop',
+    'ios': 'CupertinoIcons.drop_fill',
+  },
+  'edit_document': {
+    'android': 'Icons.edit_document',
+    'ios': 'CupertinoIcons.create',
   },
   'ellipsis': {
     'android': 'Icons.more_horiz',
@@ -538,6 +598,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'search': {
     'android': 'Icons.search',
     'ios': 'CupertinoIcons.search',
+  },
+  'thunderstorm': {
+    'android': 'Icons.thunderstorm_outlined',
+    'ios': 'CupertinoIcons.cloud_bolt',
+  },
+  'thunderstorm_fill': {
+    'android': 'Icons.thunderstorm',
+    'ios': 'CupertinoIcons.cloud_bolt_fill',
   },
   'time': {
     'android': 'Icons.access_time',
