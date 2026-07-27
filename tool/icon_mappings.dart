@@ -79,6 +79,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.no_encryption',
     'ios': 'CupertinoIcons.lock_slash_fill',
   },
+  'refresh': {
+    'android': 'Icons.refresh',
+    'ios': 'CupertinoIcons.refresh',
+  },
   'settings': {
     'android': 'Icons.settings',
     'ios': 'CupertinoIcons.settings',
@@ -91,9 +95,13 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.search',
     'ios': 'CupertinoIcons.search',
   },
-  'refresh': {
-    'android': 'Icons.refresh',
-    'ios': 'CupertinoIcons.refresh',
+  'time': {
+    'android': 'Icons.access_time',
+    'ios': 'CupertinoIcons.time',
+  },
+  'timelapse': {
+    'android': 'Icons.timelapse',
+    'ios': 'CupertinoIcons.timelapse',
   },
   // Add more here...
 };
