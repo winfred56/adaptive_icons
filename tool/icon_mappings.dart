@@ -1,4 +1,8 @@
 const Map<String, Map<String, dynamic>> iconMappings = {
+  'add': {
+    'android': 'Icons.add',
+    'ios': 'CupertinoIcons.add',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
