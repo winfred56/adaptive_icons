@@ -39,6 +39,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.arrow_downward',
     'ios': 'CupertinoIcons.arrow_down',
   },
+  'arrow_down_circle': {
+    'android': 'Icons.arrow_circle_down',
+    'ios': 'CupertinoIcons.arrow_down_circle',
+  },
   'arrow_down_left': {
     'android': 'Icons.south_west',
     'ios': 'CupertinoIcons.arrow_down_left',
@@ -54,6 +58,74 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'arrow_left': {
     'android': 'Icons.arrow_back',
     'ios': 'CupertinoIcons.arrow_left',
+  },
+  'arrow_left_circle': {
+    'android': 'Icons.arrow_circle_left_outlined',
+    'ios': 'CupertinoIcons.arrow_left_circle',
+  },
+  'arrow_left_circle_fill': {
+    'android': 'Icons.arrow_circle_left',
+    'ios': 'CupertinoIcons.arrow_left_circle_fill',
+  },
+  'arrow_up_circle': {
+    'android': 'Icons.arrow_circle_up',
+    'ios': 'CupertinoIcons.arrow_up_circle',
+  },
+  'arrow_merge': {
+    'android': 'Icons.merge',
+    'ios': 'CupertinoIcons.arrow_merge',
+  },
+  'arrow_right': {
+    'android': 'Icons.arrow_forward',
+    'ios': 'CupertinoIcons.arrow_right',
+  },
+  'arrow_right_arrow_left': {
+    'android': 'Icons.swap_horiz',
+    'ios': 'CupertinoIcons.arrow_right_arrow_left',
+  },
+  'arrow_right_arrow_left_circle': {
+    'android': 'Icons.swap_horizontal_circle_outlined',
+    'ios': 'CupertinoIcons.arrow_right_arrow_left_circle',
+  },
+  'arrow_right_arrow_left_circle_fill': {
+    'android': 'Icons.swap_horizontal_circle',
+    'ios': 'CupertinoIcons.arrow_right_arrow_left_circle_fill',
+  },
+  'arrow_right_circle': {
+    'android': 'Icons.arrow_circle_right_outlined',
+    'ios': 'CupertinoIcons.arrow_right_circle',
+  },
+  'arrow_right_circle_fill': {
+    'android': 'Icons.arrow_circle_right',
+    'ios': 'CupertinoIcons.arrow_right_circle_fill',
+  },
+  'arrow_swap': {
+    'android': 'Icons.swap_calls',
+    'ios': 'CupertinoIcons.arrow_swap',
+  },
+  'arrow_up': {
+    'android': 'Icons.arrow_upward',
+    'ios': 'CupertinoIcons.arrow_up',
+  },
+  'arrow_up_arrow_down': {
+    'android': 'Icons.swap_vert',
+    'ios': 'CupertinoIcons.arrow_up_arrow_down',
+  },
+  'arrow_up_arrow_down_circle': {
+    'android': 'Icons.swap_vert_circle_outlined',
+    'ios': 'CupertinoIcons.arrow_up_arrow_down_circle',
+  },
+  'arrow_up_arrow_down_circle_fill': {
+    'android': 'Icons.swap_vert_circle',
+    'ios': 'CupertinoIcons.arrow_up_arrow_down_circle_fill',
+  },
+  'arrow_up_bin': {
+    'android': 'Icons.restore_from_trash_outlined',
+    'ios': 'CupertinoIcons.arrow_up_bin',
+  },
+  'arrow_up_bin_fill': {
+    'android': 'Icons.restore_from_trash',
+    'ios': 'CupertinoIcons.arrow_up_bin_fill',
   },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
