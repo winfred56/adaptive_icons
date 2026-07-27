@@ -23,6 +23,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.email_rounded',
     'ios': 'CupertinoIcons.mail_solid',
   },
+  'envelope_badge': {
+    'android': 'Icons.mark_email_unread_outlined',
+    'ios': 'CupertinoIcons.envelope_badge',
+  },
+  'envelope_badge_fill': {
+    'android': 'Icons.mark_email_unread',
+    'ios': 'CupertinoIcons.envelope_badge_fill',
+  },
   'eye': {
     'android': 'Icons.visibility_outlined',
     'ios': 'CupertinoIcons.eye',
