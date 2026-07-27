@@ -1,4 +1,20 @@
 const Map<String, Map<String, dynamic>> iconMappings = {
+  'battery_0': {
+    'android': 'Icons.battery_0_bar',
+    'ios': 'CupertinoIcons.battery_0',
+  },
+  'battery_25': {
+    'android': 'Icons.battery_2_bar',
+    'ios': 'CupertinoIcons.battery_25',
+  },
+  'battery_75': {
+    'android': 'Icons.battery_5_bar',
+    'ios': 'CupertinoIcons.battery_75_percent',
+  },
+  'battery_100': {
+    'android': 'Icons.battery_full',
+    'ios': 'CupertinoIcons.battery_100',
+  },
   'bus': {
     'android': 'Icons.directions_bus',
     'ios': 'CupertinoIcons.bus',
