@@ -15,6 +15,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.calendar_today_outlined',
     'ios': 'CupertinoIcons.calendar_today',
   },
+  'document_scanner': {
+    'android': 'Icons.document_scanner',
+    'ios': 'CupertinoIcons.doc_text_viewfinder',
+  },
+  'doc_text_search': {
+    'android': 'Icons.content_paste_search',
+    'ios': 'CupertinoIcons.doc_text_search',
+  },
   'email': {
     'android': 'Icons.email_outlined',
     'ios': 'CupertinoIcons.mail',
