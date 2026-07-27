@@ -35,6 +35,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.call_split',
     'ios': 'CupertinoIcons.arrow_branch',
   },
+  'arrow_down': {
+    'android': 'Icons.arrow_downward',
+    'ios': 'CupertinoIcons.arrow_down',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
