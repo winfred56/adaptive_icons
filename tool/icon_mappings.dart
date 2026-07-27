@@ -23,6 +23,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.plagiarism_outlined',
     'ios': 'CupertinoIcons.doc_text_search',
   },
+  'ellipsis': {
+    'android': 'Icons.more_horiz',
+    'ios': 'CupertinoIcons.ellipsis',
+  },
+  'ellipsis_vertical': {
+    'android': 'Icons.more_horiz',
+    'ios': 'CupertinoIcons.ellipsis_vertical',
+  },
   'email': {
     'android': 'Icons.email_outlined',
     'ios': 'CupertinoIcons.mail',
@@ -46,6 +54,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'envelope_open_fill': {
     'android': 'Icons.drafts',
     'ios': 'CupertinoIcons.envelope_open_fill',
+  },
+  'eject': {
+    'android': 'Icons.eject_outlined',
+    'ios': 'CupertinoIcons.eject',
+  },
+  'eject_fill': {
+    'android': 'Icons.eject',
+    'ios': 'CupertinoIcons.eject_fill',
   },
   'eye': {
     'android': 'Icons.visibility_outlined',
