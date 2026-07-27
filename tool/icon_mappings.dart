@@ -39,6 +39,22 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.arrow_downward',
     'ios': 'CupertinoIcons.arrow_down',
   },
+  'arrow_down_left': {
+    'android': 'Icons.south_west',
+    'ios': 'CupertinoIcons.arrow_down_left',
+  },
+  'arrow_down_right': {
+    'android': 'Icons.south_east',
+    'ios': 'CupertinoIcons.arrow_down_right',
+  },
+  'arrow_down_to_line': {
+    'android': 'Icons.vertical_align_bottom',
+    'ios': 'CupertinoIcons.arrow_down_to_line',
+  },
+  'arrow_left': {
+    'android': 'Icons.arrow_back',
+    'ios': 'CupertinoIcons.arrow_left',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
