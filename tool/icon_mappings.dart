@@ -3,6 +3,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.add',
     'ios': 'CupertinoIcons.add',
   },
+  'add_circled': {
+    'android': 'Icons.add_circle_outline',
+    'ios': 'CupertinoIcons.add_circled',
+  },
+  'add_circled_fill': {
+    'android': 'Icons.add_circle',
+    'ios': 'CupertinoIcons.add_circled_solid',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
