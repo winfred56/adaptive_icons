@@ -163,6 +163,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.healing',
     'ios': 'CupertinoIcons.bandage',
   },
+  'bar_chart': {
+    'android': 'Icons.bar_chart',
+    'ios': 'CupertinoIcons.chart_bar_alt_fill',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
@@ -275,6 +279,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.chat_bubble',
     'ios': 'CupertinoIcons.bubble_left_fill',
   },
+  'bubble_left_bubble_right': {
+    'android': 'Icons.forum_outlined',
+    'ios': 'CupertinoIcons.bubble_left_bubble_right',
+  },
+  'bubble_left_bubble_right_fill': {
+    'android': 'Icons.forum',
+    'ios': 'CupertinoIcons.bubble_left_bubble_right_fill',
+  },
   'bus': {
     'android': 'Icons.directions_bus',
     'ios': 'CupertinoIcons.bus',
@@ -311,9 +323,61 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.keyboard_capslock',
     'ios': 'CupertinoIcons.capslock',
   },
+  'captions_bubble': {
+    'android': 'Icons.chat_outlined',
+    'ios': 'CupertinoIcons.captions_bubble',
+  },
+  'captions_bubble_fill': {
+    'android': 'Icons.chat',
+    'ios': 'CupertinoIcons.captions_bubble_fill',
+  },
+  'car': {
+    'android': 'Icons.directions_car',
+    'ios': 'CupertinoIcons.car',
+  },
+  'cart': {
+    'android': 'Icons.shopping_cart_outlined',
+    'ios': 'CupertinoIcons.cart',
+  },
+  'cart_fill': {
+    'android': 'Icons.shopping_cart',
+    'ios': 'CupertinoIcons.cart_fill',
+  },
+  'cart_badge_plus': {
+    'android': 'Icons.add_shopping_cart',
+    'ios': 'CupertinoIcons.cart_badge_plus',
+  },
   'cell_tower': {
     'android': 'Icons.cell_tower',
     'ios': 'CupertinoIcons.antenna_radiowaves_left_right',
+  },
+  'check_mark': {
+    'android': 'Icons.check',
+    'ios': 'CupertinoIcons.check_mark',
+  },
+  'check_mark_circled': {
+    'android': 'Icons.check_circle_outline',
+    'ios': 'CupertinoIcons.check_mark_circled',
+  },
+  'check_mark_circled_fill': {
+    'android': 'Icons.check_circle',
+    'ios': 'CupertinoIcons.check_mark_circled_solid',
+  },
+  'checkmark_seal': {
+    'android': 'Icons.verified_outlined',
+    'ios': 'CupertinoIcons.checkmark_seal',
+  },
+  'checkmark_seal_fill': {
+    'android': 'Icons.verified',
+    'ios': 'CupertinoIcons.checkmark_seal_fill',
+  },
+  'checkmark_shield': {
+    'android': 'Icons.verified_user_outlined',
+    'ios': 'CupertinoIcons.checkmark_shield',
+  },
+  'checkmark_shield_fill': {
+    'android': 'Icons.verified_user',
+    'ios': 'CupertinoIcons.checkmark_shield_fill',
   },
   'document_scanner': {
     'android': 'Icons.document_scanner',
@@ -418,6 +482,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'lock_slash_fill': {
     'android': 'Icons.no_encryption',
     'ios': 'CupertinoIcons.lock_slash_fill',
+  },
+  'pie_chart': {
+    'android': 'Icons.pie_chart_outline',
+    'ios': 'CupertinoIcons.chart_pie',
+  },
+  'pie_chart_fill': {
+    'android': 'Icons.pie_chart',
+    'ios': 'CupertinoIcons.chart_pie_fill',
   },
   'refresh': {
     'android': 'Icons.refresh',
