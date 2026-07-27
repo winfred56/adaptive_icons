@@ -27,6 +27,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.inventory_2',
     'ios': 'CupertinoIcons.archivebox',
   },
+  'arrow_circlepath': {
+    'android': 'Icons.cached',
+    'ios': 'CupertinoIcons.arrow_2_circlepath',
+  },
+  'arrow_branch': {
+    'android': 'Icons.call_split',
+    'ios': 'CupertinoIcons.arrow_branch',
+  },
   'battery_0': {
     'android': 'Icons.battery_0_bar',
     'ios': 'CupertinoIcons.battery_0',
