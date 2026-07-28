@@ -403,6 +403,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.close',
     'ios': 'CupertinoIcons.clear',
   },
+  'clear_circled': {
+    'android': 'Icons.cancel_outlined',
+    'ios': 'CupertinoIcons.clear_circled',
+  },
   'clear_circled_fill': {
     'android': 'Icons.cancel',
     'ios': 'CupertinoIcons.clear_circled_solid',
@@ -502,6 +506,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'email_rounded': {
     'android': 'Icons.email_rounded',
     'ios': 'CupertinoIcons.mail_solid',
+  },
+  'emergency': {
+    'android': 'Icons.emergency_outlined',
+    'ios': 'CupertinoIcons.staroflife',
+  },
+  'emergency_fill': {
+    'android': 'Icons.emergency',
+    'ios': 'CupertinoIcons.staroflife_fill',
   },
   'envelope_badge': {
     'android': 'Icons.mark_email_unread_outlined',
@@ -1235,6 +1247,102 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.speaker',
     'ios': 'CupertinoIcons.hifispeaker_fill',
   },
+  'speedometer': {
+    'android': 'Icons.speed_outlined',
+    'ios': 'CupertinoIcons.speedometer',
+  },
+  'star': {
+    'android': 'Icons.star_border_outlined',
+    'ios': 'CupertinoIcons.star',
+  },
+  'star_fill': {
+    'android': 'Icons.star',
+    'ios': 'CupertinoIcons.star_fill',
+  },
+  'star_half_fill': {
+    'android': 'Icons.star_half_outlined',
+    'ios': 'CupertinoIcons.star_lefthalf_fill',
+  },
+  'stop': {
+    'android': 'Icons.stop_outlined',
+    'ios': 'CupertinoIcons.stop',
+  },
+  'stop_circle': {
+    'android': 'Icons.stop_circle_outlined',
+    'ios': 'CupertinoIcons.stop_circle',
+  },
+  'stop_circle_fill': {
+    'android': 'Icons.stop_circle',
+    'ios': 'CupertinoIcons.stop_circle_fill',
+  },
+  'stop_fill': {
+    'android': 'Icons.stop',
+    'ios': 'CupertinoIcons.stop_fill',
+  },
+  'stopwatch': {
+    'android': 'Icons.timer_outlined',
+    'ios': 'CupertinoIcons.stopwatch',
+  },
+  'stopwatch_fill': {
+    'android': 'Icons.timer',
+    'ios': 'CupertinoIcons.stopwatch_fill',
+  },
+  'strikethrough': {
+    'android': 'Icons.strikethrough_s',
+    'ios': 'CupertinoIcons.strikethrough',
+  },
+  'sum': {
+    'android': 'Icons.functions',
+    'ios': 'CupertinoIcons.sum',
+  },
+  'sunny': {
+    'android': 'Icons.wb_sunny_outlined',
+    'ios': 'CupertinoIcons.sun_max',
+  },
+  'sunny_fill': {
+    'android': 'Icons.wb_sunny',
+    'ios': 'CupertinoIcons.sun_max_fill',
+  },
+  'switch_camera': {
+    'android': 'Icons.cameraswitch_outlined',
+    'ios': 'CupertinoIcons.switch_camera',
+  },
+  'switch_camera_fill': {
+    'android': 'Icons.cameraswitch',
+    'ios': 'CupertinoIcons.switch_camera_solid',
+  },
+  'table': {
+    'android': 'Icons.table_chart_outlined',
+    'ios': 'CupertinoIcons.table',
+  },
+  'tag': {
+    'android': 'Icons.sell_outlined',
+    'ios': 'CupertinoIcons.tag',
+  },
+  'tag_fill': {
+    'android': 'Icons.sell',
+    'ios': 'CupertinoIcons.tag_fill',
+  },
+  'text_aligncenter': {
+    'android': 'Icons.format_align_center',
+    'ios': 'CupertinoIcons.text_aligncenter',
+  },
+  'text_alignleft': {
+    'android': 'Icons.format_align_left',
+    'ios': 'CupertinoIcons.text_alignleft',
+  },
+  'text_alignright': {
+    'android': 'Icons.format_align_right',
+    'ios': 'CupertinoIcons.text_alignright',
+  },
+  'textformat_abc': {
+    'android': 'Icons.abc',
+    'ios': 'CupertinoIcons.textformat_abc',
+  },
+  'thermometer': {
+    'android': 'Icons.thermostat_outlined',
+    'ios': 'CupertinoIcons.thermometer',
+  },
   'thumbsdown': {
     'android': 'Icons.thumb_down_outlined',
     'ios': 'CupertinoIcons.hand_thumbsdown',
@@ -1259,6 +1367,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.thunderstorm',
     'ios': 'CupertinoIcons.cloud_bolt_fill',
   },
+  'ticket': {
+    'android': 'Icons.confirmation_num_outlined',
+    'ios': 'CupertinoIcons.ticket',
+  },
+  'ticket_fill': {
+    'android': 'Icons.confirmation_num',
+    'ios': 'CupertinoIcons.ticket_fill',
+  },
   'time': {
     'android': 'Icons.access_time',
     'ios': 'CupertinoIcons.time',
@@ -1271,6 +1387,42 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.timelapse',
     'ios': 'CupertinoIcons.timelapse',
   },
+  'train': {
+    'android': 'Icons.train',
+    'ios': 'CupertinoIcons.train_style_one',
+  },
+  'tram': {
+    'android': 'Icons.tram',
+    'ios': 'CupertinoIcons.tram_fill',
+  },
+  'trash': {
+    'android': 'Icons.delete_outline',
+    'ios': 'CupertinoIcons.trash',
+  },
+  'trash_fill': {
+    'android': 'Icons.delete',
+    'ios': 'CupertinoIcons.trash_fill',
+  },
+  'tray': {
+    'android': 'Icons.inbox_outlined',
+    'ios': 'CupertinoIcons.tray',
+  },
+  'tray_fill': {
+    'android': 'Icons.inbox',
+    'ios': 'CupertinoIcons.tray_fill',
+  },
+  'tv': {
+    'android': 'Icons.tv',
+    'ios': 'CupertinoIcons.tv',
+  },
+  'umbrella': {
+    'android': 'Icons.umbrella',
+    'ios': 'CupertinoIcons.umbrella',
+  },
+  'underline': {
+    'android': 'Icons.format_underline',
+    'ios': 'CupertinoIcons.underline',
+  },
   'upload_file': {
     'android': 'Icons.upload_file',
     'ios': 'CupertinoIcons.arrow_up_doc',
@@ -1278,6 +1430,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'upload_file_fill': {
     'android': 'Icons.upload_file_rounded',
     'ios': 'CupertinoIcons.arrow_up_doc_fill',
+  },
+  'video_camera': {
+    'android': 'Icons.video_call_outlined',
+    'ios': 'CupertinoIcons.video_camera',
+  },
+  'video_camera_fill': {
+    'android': 'Icons.video_call',
+    'ios': 'CupertinoIcons.video_camera_solid',
   },
   'volume_0': {
     'android': 'Icons.volume_mute_outlined',
@@ -1310,6 +1470,38 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'volume_slash_fill': {
     'android': 'Icons.volume_off',
     'ios': 'CupertinoIcons.speaker_slash_fill',
+  },
+  'wifi': {
+    'android': 'Icons.wifi',
+    'ios': 'CupertinoIcons.wifi',
+  },
+  'wifi_exclamationmark': {
+    'android': 'Icons.signal_wifi_statusbar_connected_no_internet_4_outlined',
+    'ios': 'CupertinoIcons.wifi_exclamationmark',
+  },
+  'wifi_slash': {
+    'android': 'Icons.wifi_off_outlined',
+    'ios': 'CupertinoIcons.wifi_slash',
+  },
+  'xmark': {
+    'android': 'Icons.close',
+    'ios': 'CupertinoIcons.clear',
+  },
+  'xmark_circled': {
+    'android': 'Icons.cancel_outlined',
+    'ios': 'CupertinoIcons.clear_circled',
+  },
+  'xmark_circled_fill': {
+    'android': 'Icons.cancel',
+    'ios': 'CupertinoIcons.clear_circled_solid',
+  },
+  'zoom_in': {
+    'android': 'Icons.zoom_in',
+    'ios': 'CupertinoIcons.zoom_in',
+  },
+  'zoom_out': {
+    'android': 'Icons.zoom_out',
+    'ios': 'CupertinoIcons.zoom_out',
   },
   // Add more here...
 };
