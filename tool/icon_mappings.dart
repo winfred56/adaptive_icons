@@ -727,6 +727,70 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.info',
     'ios': 'CupertinoIcons.info_circle_fill',
   },
+  'italic': {
+    'android': 'Icons.format_italic',
+    'ios': 'CupertinoIcons.italic',
+  },
+  'keyboard': {
+    'android': 'Icons.keyboard_outlined',
+    'ios': 'CupertinoIcons.keyboard',
+  },
+  'lab_flask': {
+    'android': 'Icons.science_outlined',
+    'ios': 'CupertinoIcons.lab_flask',
+  },
+  'lab_flask_fill': {
+    'android': 'Icons.science',
+    'ios': 'CupertinoIcons.lab_flask_solid',
+  },
+  'layers': {
+    'android': 'Icons.layers_outlined',
+    'ios': 'CupertinoIcons.layers',
+  },
+  'layers_fill': {
+    'android': 'Icons.layers',
+    'ios': 'CupertinoIcons.layers_fill',
+  },
+  'lightbulb': {
+    'android': 'Icons.lightbulb_outline',
+    'ios': 'CupertinoIcons.lightbulb',
+  },
+  'lightbulb_fill': {
+    'android': 'Icons.lightbulb',
+    'ios': 'CupertinoIcons.lightbulb_fill',
+  },
+  'link': {
+    'android': 'Icons.link',
+    'ios': 'CupertinoIcons.link',
+  },
+  'list_bullet': {
+    'android': 'Icons.format_list_bulleted',
+    'ios': 'CupertinoIcons.list_bullet',
+  },
+  'list_number': {
+    'android': 'Icons.format_list_numbered',
+    'ios': 'CupertinoIcons.list_number',
+  },
+  'list_number_rtl': {
+    'android': 'Icons.format_list_numbered_rtl',
+    'ios': 'CupertinoIcons.list_number_rtl',
+  },
+  'location': {
+    'android': 'Icons.location_on_outlined',
+    'ios': 'CupertinoIcons.location',
+  },
+  'location_fill': {
+    'android': 'Icons.location_on',
+    'ios': 'CupertinoIcons.location_fill',
+  },
+  'location_slash': {
+    'android': 'Icons.location_off_outlined',
+    'ios': 'CupertinoIcons.location_slash',
+  },
+  'location_slash_fill': {
+    'android': 'Icons.location_off',
+    'ios': 'CupertinoIcons.location_slash_fill',
+  },
   'lock': {
     'android': 'Icons.lock_outlined',
     'ios': 'CupertinoIcons.lock',
@@ -754,6 +818,38 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'lock_slash_fill': {
     'android': 'Icons.no_encryption',
     'ios': 'CupertinoIcons.lock_slash_fill',
+  },
+  'map': {
+    'android': 'Icons.map_outlined',
+    'ios': 'CupertinoIcons.map',
+  },
+  'map_fill': {
+    'android': 'Icons.map',
+    'ios': 'CupertinoIcons.map_fill',
+  },
+  'map_pin': {
+    'android': 'Icons.location_on_outlined',
+    'ios': 'CupertinoIcons.map_pin',
+  },
+  'map_pin_slash': {
+    'android': 'Icons.location_off_outlined',
+    'ios': 'CupertinoIcons.map_pin_slash',
+  },
+  'mic': {
+    'android': 'Icons.mic_none',
+    'ios': 'CupertinoIcons.mic',
+  },
+  'mic_fill': {
+    'android': 'Icons.mic',
+    'ios': 'CupertinoIcons.mic_fill',
+  },
+  'mic_slash': {
+    'android': 'Icons.mic_off_outlined',
+    'ios': 'CupertinoIcons.mic_slash',
+  },
+  'mic_slash_fill': {
+    'android': 'Icons.mic_off',
+    'ios': 'CupertinoIcons.mic_slash_fill',
   },
   'pie_chart': {
     'android': 'Icons.pie_chart_outline',
