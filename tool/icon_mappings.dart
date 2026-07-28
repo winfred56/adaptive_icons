@@ -519,6 +519,18 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.eject',
     'ios': 'CupertinoIcons.eject_fill',
   },
+  'exclamationmark': {
+    'android': 'Icons.priority_high',
+    'ios': 'CupertinoIcons.exclamationmark',
+  },
+  'exclamationmark_octagon': {
+    'android': 'Icons.report_outlined',
+    'ios': 'CupertinoIcons.exclamationmark_octagon',
+  },
+  'exclamationmark_octagon_fill': {
+    'android': 'Icons.report',
+    'ios': 'CupertinoIcons.exclamationmark_octagon_fill',
+  },
   'eye': {
     'android': 'Icons.visibility_outlined',
     'ios': 'CupertinoIcons.eye',
@@ -542,6 +554,70 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'file_copy_fill': {
     'android': 'Icons.file_copy_rounded',
     'ios': 'CupertinoIcons.doc_on_clipboard_fill',
+  },
+  'flag': {
+    'android': 'Icons.flag_outlined',
+    'ios': 'CupertinoIcons.flag',
+  },
+  'flag_circle': {
+    'android': 'Icons.flag_circle_outlined',
+    'ios': 'CupertinoIcons.flag_circle',
+  },
+  'flag_circle_fill': {
+    'android': 'Icons.flag_circle',
+    'ios': 'CupertinoIcons.flag_circle_fill',
+  },
+  'flag_fill': {
+    'android': 'Icons.flag',
+    'ios': 'CupertinoIcons.flag_fill',
+  },
+  'flame': {
+    'android': 'Icons.local_fire_department_outlined',
+    'ios': 'CupertinoIcons.flame',
+  },
+  'flame_fill': {
+    'android': 'Icons.local_fire_department',
+    'ios': 'CupertinoIcons.flame_fill',
+  },
+  'folder': {
+    'android': 'Icons.folder_outlined',
+    'ios': 'CupertinoIcons.folder',
+  },
+  'folder_fill': {
+    'android': 'Icons.folder',
+    'ios': 'CupertinoIcons.folder_fill',
+  },
+  'folder_badge_plus': {
+    'android': 'Icons.create_new_folder_outlined',
+    'ios': 'CupertinoIcons.folder_badge_plus',
+  },
+  'folder_badge_plus_fill': {
+    'android': 'Icons.create_new_folder',
+    'ios': 'CupertinoIcons.folder_fill_badge_plus',
+  },
+  'folder_open': {
+    'android': 'Icons.folder_open',
+    'ios': 'CupertinoIcons.folder_open',
+  },
+  'fullscreen': {
+    'android': 'Icons.fullscreen',
+    'ios': 'CupertinoIcons.fullscreen',
+  },
+  'fullscreen_exit': {
+    'android': 'Icons.fullscreen_exit',
+    'ios': 'CupertinoIcons.fullscreen_exit',
+  },
+  'function': {
+    'android': 'Icons.functions',
+    'ios': 'CupertinoIcons.function',
+  },
+  'game_controller': {
+    'android': 'Icons.gamepad_outlined',
+    'ios': 'CupertinoIcons.game_controller',
+  },
+  'game_controller_fill': {
+    'android': 'Icons.gamepad',
+    'ios': 'CupertinoIcons.game_controller_solid',
   },
   'home': {
     'android': 'Icons.home',
@@ -586,6 +662,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'refresh': {
     'android': 'Icons.refresh',
     'ios': 'CupertinoIcons.refresh',
+  },
+  'save': {
+    'android': 'Icons.save',
+    'ios': 'CupertinoIcons.floppy_disk',
   },
   'settings': {
     'android': 'Icons.settings',
