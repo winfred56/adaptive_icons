@@ -619,6 +619,58 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.gamepad',
     'ios': 'CupertinoIcons.game_controller_solid',
   },
+  'gift': {
+    'android': 'Icons.redeem',
+    'ios': 'CupertinoIcons.gift',
+  },
+  'globe': {
+    'android': 'Icons.language',
+    'ios': 'CupertinoIcons.globe',
+  },
+  'gobackward': {
+    'android': 'Icons.replay',
+    'ios': 'CupertinoIcons.gobackward',
+  },
+  'gobackward_10': {
+    'android': 'Icons.replay_10',
+    'ios': 'CupertinoIcons.gobackward_10',
+  },
+  'gobackward_30': {
+    'android': 'Icons.replay_30',
+    'ios': 'CupertinoIcons.gobackward_30',
+  },
+  'goforward_10': {
+    'android': 'Icons.forward_10',
+    'ios': 'CupertinoIcons.goforward_10',
+  },
+  'goforward_30': {
+    'android': 'Icons.forward_30',
+    'ios': 'CupertinoIcons.goforward_30',
+  },
+  'group': {
+    'android': 'Icons.groups_3_outlined',
+    'ios': 'CupertinoIcons.group',
+  },
+  'group_fill': {
+    'android': 'Icons.groups_3',
+    'ios': 'CupertinoIcons.group_solid',
+  },
+  'hand_draw': {
+    'android': 'Icons.swipe_down_outlined',
+    'ios': 'CupertinoIcons.hand_draw',
+  },
+  'hand_draw_fill': {
+    'android': 'Icons.swipe_down',
+    'ios': 'CupertinoIcons.hand_draw_fill',
+  },
+  'hand_raised': {
+    'android': 'Icons.front_hand_outlined',
+    'ios': 'CupertinoIcons.hand_raised',
+  },
+  'hand_raised_fill': {
+    'android': 'Icons.front_hand',
+    'ios': 'CupertinoIcons.hand_raised_fill',
+  },
   'home': {
     'android': 'Icons.home',
     'ios': 'CupertinoIcons.home',
@@ -678,6 +730,22 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'search': {
     'android': 'Icons.search',
     'ios': 'CupertinoIcons.search',
+  },
+  'thumbsdown': {
+    'android': 'Icons.thumb_down_outlined',
+    'ios': 'CupertinoIcons.hand_thumbsdown',
+  },
+  'thumbsdown_fill': {
+    'android': 'Icons.thumb_down',
+    'ios': 'CupertinoIcons.hand_thumbsdown_fill',
+  },
+  'thumbsup': {
+    'android': 'Icons.thumb_up_outlined',
+    'ios': 'CupertinoIcons.hand_thumbsup',
+  },
+  'thumbsup_fill': {
+    'android': 'Icons.thumb_up',
+    'ios': 'CupertinoIcons.hand_thumbsup_fill',
   },
   'thunderstorm': {
     'android': 'Icons.thunderstorm_outlined',
