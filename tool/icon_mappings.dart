@@ -671,9 +671,61 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.front_hand',
     'ios': 'CupertinoIcons.hand_raised_fill',
   },
+  'headphones': {
+    'android': 'Icons.headphones',
+    'ios': 'CupertinoIcons.headphones',
+  },
+  'heart': {
+    'android': 'Icons.favorite_outline',
+    'ios': 'CupertinoIcons.heart',
+  },
+  'heart_fill': {
+    'android': 'Icons.favorite',
+    'ios': 'CupertinoIcons.heart_fill',
+  },
+  'hexagon': {
+    'android': 'Icons.hexagon_outlined',
+    'ios': 'CupertinoIcons.hexagon',
+  },
+  'hexagon_fill': {
+    'android': 'Icons.hexagon',
+    'ios': 'CupertinoIcons.hexagon_fill',
+  },
   'home': {
     'android': 'Icons.home',
     'ios': 'CupertinoIcons.home',
+  },
+  'hourglass': {
+    'android': 'Icons.hourglass_top_outlined',
+    'ios': 'CupertinoIcons.hourglass',
+  },
+  'hourglass_bottomhalf_fill': {
+    'android': 'Icons.hourglass_bottom',
+    'ios': 'CupertinoIcons.hourglass_bottomhalf_fill',
+  },
+  'hourglass_tophalf_fill': {
+    'android': 'Icons.hourglass_top',
+    'ios': 'CupertinoIcons.hourglass_tophalf_fill',
+  },
+  'house': {
+    'android': 'Icons.house_outlined',
+    'ios': 'CupertinoIcons.house_alt',
+  },
+  'house_fill': {
+    'android': 'Icons.house',
+    'ios': 'CupertinoIcons.house_alt_fill',
+  },
+  'infinite': {
+    'android': 'Icons.all_inclusive',
+    'ios': 'CupertinoIcons.infinite',
+  },
+  'info': {
+    'android': 'Icons.info_outline',
+    'ios': 'CupertinoIcons.info',
+  },
+  'info_fill': {
+    'android': 'Icons.info',
+    'ios': 'CupertinoIcons.info_circle_fill',
   },
   'lock': {
     'android': 'Icons.lock_outlined',
@@ -719,6 +771,10 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.save',
     'ios': 'CupertinoIcons.floppy_disk',
   },
+  'search': {
+    'android': 'Icons.search',
+    'ios': 'CupertinoIcons.search',
+  },
   'settings': {
     'android': 'Icons.settings',
     'ios': 'CupertinoIcons.settings',
@@ -727,9 +783,13 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.settings_rounded',
     'ios': 'CupertinoIcons.settings',
   },
-  'search': {
-    'android': 'Icons.search',
-    'ios': 'CupertinoIcons.search',
+  'speaker': {
+    'android': 'Icons.speaker_outlined',
+    'ios': 'CupertinoIcons.hifispeaker',
+  },
+  'speaker_fill': {
+    'android': 'Icons.speaker',
+    'ios': 'CupertinoIcons.hifispeaker_fill',
   },
   'thumbsdown': {
     'android': 'Icons.thumb_down_outlined',
