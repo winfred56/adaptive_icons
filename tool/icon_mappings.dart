@@ -3,6 +3,14 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.add',
     'ios': 'CupertinoIcons.add',
   },
+  'add_box': {
+    'android': 'Icons.add_box_outlined',
+    'ios': 'CupertinoIcons.plus_app',
+  },
+  'add_box_filled': {
+    'android': 'Icons.add_box',
+    'ios': 'CupertinoIcons.plus_app_fill',
+  },
   'add_circled': {
     'android': 'Icons.add_circle_outline',
     'ios': 'CupertinoIcons.add_circled',
@@ -1007,6 +1015,50 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.wifi_tethering',
     'ios': 'CupertinoIcons.personalhotspot',
   },
+  'phone': {
+    'android': 'Icons.phone_outlined',
+    'ios': 'CupertinoIcons.phone',
+  },
+  'phone_arrow_down_left': {
+    'android': 'Icons.phone_callback_outlined',
+    'ios': 'CupertinoIcons.phone_arrow_down_left',
+  },
+  'phone_arrow_right': {
+    'android': 'Icons.phone_forwarded_outlined',
+    'ios': 'CupertinoIcons.phone_arrow_right',
+  },
+  'phone_fill': {
+    'android': 'Icons.phone',
+    'ios': 'CupertinoIcons.phone_fill',
+  },
+  'phone_arrow_down_left_fill': {
+    'android': 'Icons.phone_callback',
+    'ios': 'CupertinoIcons.phone_fill_arrow_down_left',
+  },
+  'phone_arrow_right_fill': {
+    'android': 'Icons.phone_forwarded',
+    'ios': 'CupertinoIcons.phone_fill_arrow_right',
+  },
+  'photo': {
+    'android': 'Icons.photo_outlined',
+    'ios': 'CupertinoIcons.photo',
+  },
+  'photo_camera': {
+    'android': 'Icons.photo_camera_outlined',
+    'ios': 'CupertinoIcons.photo_camera',
+  },
+  'photo_camera_fill': {
+    'android': 'Icons.photo_camera',
+    'ios': 'CupertinoIcons.photo_camera_fill',
+  },
+  'photo_fill': {
+    'android': 'Icons.photo',
+    'ios': 'CupertinoIcons.photo_fill',
+  },
+  'piano': {
+    'android': 'Icons.piano',
+    'ios': 'CupertinoIcons.piano',
+  },
   'pie_chart': {
     'android': 'Icons.pie_chart_outline',
     'ios': 'CupertinoIcons.chart_pie',
@@ -1015,25 +1067,165 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.pie_chart',
     'ios': 'CupertinoIcons.chart_pie_fill',
   },
+  'placemark': {
+    'android': 'Icons.location_on_outlined',
+    'ios': 'CupertinoIcons.placemark',
+  },
+  'placemark_fill': {
+    'android': 'Icons.location_on',
+    'ios': 'CupertinoIcons.placemark_fill',
+  },
+  'play': {
+    'android': 'Icons.play_arrow_outlined',
+    'ios': 'CupertinoIcons.play',
+  },
+  'play_fill': {
+    'android': 'Icons.play_arrow',
+    'ios': 'CupertinoIcons.play_arrow_solid',
+  },
+  'play_circle': {
+    'android': 'Icons.play_circle_outline',
+    'ios': 'CupertinoIcons.play_circle',
+  },
+  'play_circle_fill': {
+    'android': 'Icons.play_circle',
+    'ios': 'CupertinoIcons.play_circle_fill',
+  },
+  'power': {
+    'android': 'Icons.power_settings_new',
+    'ios': 'CupertinoIcons.power',
+  },
+  'printer': {
+    'android': 'Icons.print_outlined',
+    'ios': 'CupertinoIcons.printer',
+  },
+  'printer_fill': {
+    'android': 'Icons.print',
+    'ios': 'CupertinoIcons.printer_fill',
+  },
+  'qrcode': {
+    'android': 'Icons.qr_code_2',
+    'ios': 'CupertinoIcons.qrcode',
+  },
+  'qr_code_scanner': {
+    'android': 'Icons.qr_code_scanner',
+    'ios': 'CupertinoIcons.qrcode_viewfinder',
+  },
+  'question_mark': {
+    'android': 'Icons.question_mark',
+    'ios': 'CupertinoIcons.question',
+  },
+  'question_circle': {
+    'android': 'Icons.help_outline',
+    'ios': 'CupertinoIcons.question_circle',
+  },
+  'question_circle_fill': {
+    'android': 'Icons.help',
+    'ios': 'CupertinoIcons.question_circle_fill',
+  },
+  'question_square': {
+    'android': 'Icons.help_center_outlined',
+    'ios': 'CupertinoIcons.question_square',
+  },
+  'question_square_fill': {
+    'android': 'Icons.help_center',
+    'ios': 'CupertinoIcons.question_square_fill',
+  },
+  'rays': {
+    'android': 'Icons.wb_sunny_outlined',
+    'ios': 'CupertinoIcons.rays',
+  },
   'refresh': {
     'android': 'Icons.refresh',
     'ios': 'CupertinoIcons.refresh',
   },
+  'repeat': {
+    'android': 'Icons.repeat',
+    'ios': 'CupertinoIcons.repeat',
+  },
+  'repeat_1': {
+    'android': 'Icons.repeat_one',
+    'ios': 'CupertinoIcons.repeat_1',
+  },
+  'reply': {
+    'android': 'Icons.reply_outlined',
+    'ios': 'CupertinoIcons.reply',
+  },
+  'reply_all': {
+    'android': 'Icons.reply_all_outlined',
+    'ios': 'CupertinoIcons.reply_all',
+  },
+  'reply_all_fill': {
+    'android': 'Icons.reply_all',
+    'ios': 'CupertinoIcons.reply_thick_solid',
+  },
+  'resize': {
+    'android': 'Icons.open_in_full',
+    'ios': 'CupertinoIcons.resize',
+  },
+  'return': {
+    'android': 'Icons.keyboard_return',
+    'ios': 'CupertinoIcons.return_icon',
+  },
+  'rocket': {
+    'android': 'Icons.rocket_launch_outlined',
+    'ios': 'CupertinoIcons.rocket',
+  },
+  'rocket_fill': {
+    'android': 'Icons.rocket_launch',
+    'ios': 'CupertinoIcons.rocket_fill',
+  },
   'save': {
     'android': 'Icons.save',
     'ios': 'CupertinoIcons.floppy_disk',
+  },
+  'scissors': {
+    'android': 'Icons.content_cut',
+    'ios': 'CupertinoIcons.scissors',
+  },
+  'scribble': {
+    'android': 'Icons.gesture_outlined',
+    'ios': 'CupertinoIcons.scribble',
   },
   'search': {
     'android': 'Icons.search',
     'ios': 'CupertinoIcons.search',
   },
   'settings': {
+    'android': 'Icons.settings_outlined',
+    'ios': 'CupertinoIcons.settings',
+  },
+  'settings_fill': {
     'android': 'Icons.settings',
     'ios': 'CupertinoIcons.settings',
   },
-  'settings_rounded': {
-    'android': 'Icons.settings_rounded',
-    'ios': 'CupertinoIcons.settings',
+  'share': {
+    'android': 'Icons.share',
+    'ios': 'CupertinoIcons.share',
+  },
+  'shield': {
+    'android': 'Icons.shield_outlined',
+    'ios': 'CupertinoIcons.shield',
+  },
+  'shield_fill': {
+    'android': 'Icons.share',
+    'ios': 'CupertinoIcons.shield_fill',
+  },
+  'shuffle': {
+    'android': 'Icons.shuffle',
+    'ios': 'CupertinoIcons.shuffle',
+  },
+  'signature': {
+    'android': 'Icons.gesture',
+    'ios': 'CupertinoIcons.signature',
+  },
+  'smiley': {
+    'android': 'Icons.sentiment_satisfied_outlined',
+    'ios': 'CupertinoIcons.smiley',
+  },
+  'snow': {
+    'android': 'Icons.ac_unit',
+    'ios': 'CupertinoIcons.snow',
   },
   'speaker': {
     'android': 'Icons.speaker_outlined',
@@ -1086,6 +1278,38 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   'upload_file_fill': {
     'android': 'Icons.upload_file_rounded',
     'ios': 'CupertinoIcons.arrow_up_doc_fill',
+  },
+  'volume_0': {
+    'android': 'Icons.volume_mute_outlined',
+    'ios': 'CupertinoIcons.speaker',
+  },
+  'volume_0_fill': {
+    'android': 'Icons.volume_mute',
+    'ios': 'CupertinoIcons.speaker_fill',
+  },
+  'volume_1': {
+    'android': 'Icons.volume_down_outlined',
+    'ios': 'CupertinoIcons.speaker_1',
+  },
+  'volume_1_fill': {
+    'android': 'Icons.volume_down',
+    'ios': 'CupertinoIcons.speaker_1_fill',
+  },
+  'volume_2': {
+    'android': 'Icons.volume_up_outlined',
+    'ios': 'CupertinoIcons.speaker_3',
+  },
+  'volume_2_fill': {
+    'android': 'Icons.volume_up',
+    'ios': 'CupertinoIcons.speaker_3_fill',
+  },
+  'volume_slash': {
+    'android': 'Icons.volume_off_outlined',
+    'ios': 'CupertinoIcons.speaker_slash',
+  },
+  'volume_slash_fill': {
+    'android': 'Icons.volume_off',
+    'ios': 'CupertinoIcons.speaker_slash_fill',
   },
   // Add more here...
 };
