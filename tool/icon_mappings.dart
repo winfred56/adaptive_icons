@@ -851,6 +851,62 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.mic_off',
     'ios': 'CupertinoIcons.mic_slash_fill',
   },
+  'money_dollar': {
+    'android': 'Icons.attach_money_sharp',
+    'ios': 'CupertinoIcons.money_dollar',
+  },
+  'money_dollar_circle': {
+    'android': 'Icons.paid_outlined',
+    'ios': 'CupertinoIcons.money_dollar_circle',
+  },
+  'money_dollar_circle_fill': {
+    'android': 'Icons.paid',
+    'ios': 'CupertinoIcons.money_dollar_circle_fill',
+  },
+  'money_euro': {
+    'android': 'Icons.euro',
+    'ios': 'CupertinoIcons.money_euro',
+  },
+  'money_pound': {
+    'android': 'Icons.currency_pound_sharp',
+    'ios': 'CupertinoIcons.money_pound',
+  },
+  'money_rubl': {
+    'android': 'Icons.currency_ruble',
+    'ios': 'CupertinoIcons.money_rubl',
+  },
+  'money_yen': {
+    'android': 'Icons.currency_yen',
+    'ios': 'CupertinoIcons.money_yen',
+  },
+  'moon': {
+    'android': 'Icons.bedtime_outlined',
+    'ios': 'CupertinoIcons.moon',
+  },
+  'moon_fill': {
+    'android': 'Icons.bedtime',
+    'ios': 'CupertinoIcons.moon_fill',
+  },
+  'music_albums': {
+    'android': 'Icons.library_music_outlined',
+    'ios': 'CupertinoIcons.music_albums',
+  },
+  'music_albums_fill': {
+    'android': 'Icons.library_music',
+    'ios': 'CupertinoIcons.music_albums_fill',
+  },
+  'music_note': {
+    'android': 'Icons.music_note',
+    'ios': 'CupertinoIcons.music_note',
+  },
+  'news': {
+    'android': 'Icons.newspaper',
+    'ios': 'CupertinoIcons.news',
+  },
+  'number': {
+    'android': 'Icons.numbers',
+    'ios': 'CupertinoIcons.number',
+  },
   'pie_chart': {
     'android': 'Icons.pie_chart_outline',
     'ios': 'CupertinoIcons.chart_pie',
