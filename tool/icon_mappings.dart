@@ -907,6 +907,106 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.numbers',
     'ios': 'CupertinoIcons.number',
   },
+  'paintbrush': {
+    'android': 'Icons.format_paint_outlined',
+    'ios': 'CupertinoIcons.paintbrush',
+  },
+  'paintbrush_fill': {
+    'android': 'Icons.format_paint',
+    'ios': 'CupertinoIcons.paintbrush_fill',
+  },
+  'paperclip': {
+    'android': 'Icons.attach_file',
+    'ios': 'CupertinoIcons.paperclip',
+  },
+  'pause': {
+    'android': 'Icons.pause',
+    'ios': 'CupertinoIcons.pause',
+  },
+  'pause_circle': {
+    'android': 'Icons.pause_circle_outlined',
+    'ios': 'CupertinoIcons.pause_circle',
+  },
+  'percent': {
+    'android': 'Icons.percent',
+    'ios': 'CupertinoIcons.percent',
+  },
+  'pause_circle_fill': {
+    'android': 'Icons.pause_circle',
+    'ios': 'CupertinoIcons.pause_circle_fill',
+  },
+  'person': {
+    'android': 'Icons.person_outline',
+    'ios': 'CupertinoIcons.person',
+  },
+  'person_2': {
+    'android': 'Icons.group_outlined',
+    'ios': 'CupertinoIcons.person_2',
+  },
+  'person_2_fill': {
+    'android': 'Icons.group',
+    'ios': 'CupertinoIcons.person_2_fill',
+  },
+  'person_3': {
+    'android': 'Icons.groups_3_outlined',
+    'ios': 'CupertinoIcons.person_3',
+  },
+  'person_3_fill': {
+    'android': 'Icons.groups_3',
+    'ios': 'CupertinoIcons.person_3_fill',
+  },
+  'person_add': {
+    'android': 'Icons.person_add_outlined',
+    'ios': 'CupertinoIcons.person_add',
+  },
+  'person_add_fill': {
+    'android': 'Icons.person_add',
+    'ios': 'CupertinoIcons.person_add_solid',
+  },
+  'person_alt': {
+    'android': 'Icons.person_3',
+    'ios': 'CupertinoIcons.person_alt',
+  },
+  'person_badge_minus': {
+    'android': 'Icons.person_remove_outlined',
+    'ios': 'CupertinoIcons.person_badge_minus',
+  },
+  'person_badge_minus_fill': {
+    'android': 'Icons.person_remove',
+    'ios': 'CupertinoIcons.person_badge_minus_fill',
+  },
+  'person_badge_plus': {
+    'android': 'Icons.person_add_outlined',
+    'ios': 'CupertinoIcons.person_add',
+  },
+  'person_badge_plus_fill': {
+    'android': 'Icons.person_add',
+    'ios': 'CupertinoIcons.person_add_solid',
+  },
+  'person_circle': {
+    'android': 'Icons.account_circle_outlined',
+    'ios': 'CupertinoIcons.person_crop_circle',
+  },
+  'person_circle_fill': {
+    'android': 'Icons.account_circle',
+    'ios': 'CupertinoIcons.person_crop_circle_fill',
+  },
+  'person_crop_square': {
+    'android': 'Icons.account_box_outlined',
+    'ios': 'CupertinoIcons.person_crop_square',
+  },
+  'person_crop_square_fill': {
+    'android': 'Icons.account_box',
+    'ios': 'CupertinoIcons.person_crop_square_fill',
+  },
+  'person_fill': {
+    'android': 'Icons.person',
+    'ios': 'CupertinoIcons.person_fill',
+  },
+  'personalhotspot': {
+    'android': 'Icons.wifi_tethering',
+    'ios': 'CupertinoIcons.personalhotspot',
+  },
   'pie_chart': {
     'android': 'Icons.pie_chart_outline',
     'ios': 'CupertinoIcons.chart_pie',
