@@ -1061,7 +1061,7 @@ const Map<String, Map<String, dynamic>> iconMappings = {
   },
   'photo_camera_fill': {
     'android': 'Icons.photo_camera',
-    'ios': 'CupertinoIcons.photo_camera_fill',
+    'ios': 'CupertinoIcons.photo_camera_solid',
   },
   'photo_fill': {
     'android': 'Icons.photo',
@@ -1175,7 +1175,7 @@ const Map<String, Map<String, dynamic>> iconMappings = {
     'android': 'Icons.open_in_full',
     'ios': 'CupertinoIcons.resize',
   },
-  'return': {
+  'return_icon': {
     'android': 'Icons.keyboard_return',
     'ios': 'CupertinoIcons.return_icon',
   },
