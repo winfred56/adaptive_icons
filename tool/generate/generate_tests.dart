@@ -85,6 +85,4 @@ void generateTests() {
   buffer.writeln('}');
 
   File('test/adaptive_icons_test.dart').writeAsStringSync(buffer.toString());
-
-  print('✅ Successfully generated tests!');
 }

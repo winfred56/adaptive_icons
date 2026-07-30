@@ -6,6 +6,4 @@ void main() {
   generateIcons();
   generateTests();
   generateIconsTable();
-
-  print('🎉 AdaptiveIcons generated successfully!');
 }
