@@ -122,7 +122,7 @@ Currently includes **378** adaptive icon mappings.
 | `AdaptiveIcons.airplane` | `Icons.flight` | `CupertinoIcons.airplane` |
 | `AdaptiveIcons.alarm` | `Icons.alarm` | `CupertinoIcons.alarm` |
 | `AdaptiveIcons.archivebox` | `Icons.inventory_2_outlined` | `CupertinoIcons.archivebox` |
-| `AdaptiveIcons.archiveboxFill` | `Icons.inventory_2` | `CupertinoIcons.archivebox` |
+| `AdaptiveIcons.archiveboxFill` | `Icons.inventory_2` | `CupertinoIcons.archivebox_fill` |
 | `AdaptiveIcons.arrowBranch` | `Icons.call_split` | `CupertinoIcons.arrow_branch` |
 | `AdaptiveIcons.arrowCirclepath` | `Icons.cached` | `CupertinoIcons.arrow_2_circlepath` |
 | `AdaptiveIcons.arrowDown` | `Icons.arrow_downward` | `CupertinoIcons.arrow_down` |

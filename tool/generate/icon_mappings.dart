@@ -26,7 +26,7 @@ const Map<String, IconMapping> iconMappings = {
   ),
   'archivebox_fill': (
     android: 'Icons.inventory_2',
-    ios: 'CupertinoIcons.archivebox',
+    ios: 'CupertinoIcons.archivebox_fill',
   ),
   'arrow_circlepath': (
     android: 'Icons.cached',

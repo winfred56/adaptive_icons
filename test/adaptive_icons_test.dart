@@ -1586,7 +1586,7 @@ void main() {
     });
 
     test('archiveboxFill returns Cupertino icon', () {
-      expect(AdaptiveIcons.archiveboxFill, CupertinoIcons.archivebox);
+      expect(AdaptiveIcons.archiveboxFill, CupertinoIcons.archivebox_fill);
     });
 
     test('arrowCirclepath returns Cupertino icon', () {

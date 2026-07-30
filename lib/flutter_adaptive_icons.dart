@@ -40,7 +40,7 @@ class AdaptiveIcons {
 
   /// Adaptive version of [archivebox_fill]
   static IconData get archiveboxFill =>
-      _isApple() ? CupertinoIcons.archivebox : Icons.inventory_2;
+      _isApple() ? CupertinoIcons.archivebox_fill : Icons.inventory_2;
 
   /// Adaptive version of [arrow_circlepath]
   static IconData get arrowCirclepath =>
