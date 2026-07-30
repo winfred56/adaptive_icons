@@ -110,7 +110,7 @@ FloatingActionButton(
 
 <!-- GENERATED ICON TABLE START -->
 
-Currently includes **376** adaptive icon mappings.
+Currently includes **378** adaptive icon mappings.
 
 | Adaptive | Android | Apple |
 |----------|----------|--------|
@@ -157,6 +157,7 @@ Currently includes **376** adaptive icon mappings.
 | `AdaptiveIcons.bag` | `Icons.work_outline` | `CupertinoIcons.bag` |
 | `AdaptiveIcons.bagFill` | `Icons.work` | `CupertinoIcons.bag_fill` |
 | `AdaptiveIcons.bandage` | `Icons.healing` | `CupertinoIcons.bandage` |
+| `AdaptiveIcons.bank` | `Icons.account_balance_outlined` | `CupertinoIcons.building_2_fill` |
 | `AdaptiveIcons.barChart` | `Icons.bar_chart` | `CupertinoIcons.chart_bar_alt_fill` |
 | `AdaptiveIcons.battery0` | `Icons.battery_0_bar` | `CupertinoIcons.battery_0` |
 | `AdaptiveIcons.battery100` | `Icons.battery_full` | `CupertinoIcons.battery_100` |
@@ -332,6 +333,7 @@ Currently includes **376** adaptive icon mappings.
 | `AdaptiveIcons.micFill` | `Icons.mic` | `CupertinoIcons.mic_fill` |
 | `AdaptiveIcons.micSlash` | `Icons.mic_off_outlined` | `CupertinoIcons.mic_slash` |
 | `AdaptiveIcons.micSlashFill` | `Icons.mic_off` | `CupertinoIcons.mic_slash_fill` |
+| `AdaptiveIcons.mobilePhone` | `Icons.phone_android_rounded` | `CupertinoIcons.device_phone_portrait` |
 | `AdaptiveIcons.moneyDollar` | `Icons.attach_money_sharp` | `CupertinoIcons.money_dollar` |
 | `AdaptiveIcons.moneyDollarCircle` | `Icons.paid_outlined` | `CupertinoIcons.money_dollar_circle` |
 | `AdaptiveIcons.moneyDollarCircleFill` | `Icons.paid` | `CupertinoIcons.money_dollar_circle_fill` |
