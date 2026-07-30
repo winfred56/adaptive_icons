@@ -140,6 +140,10 @@ const Map<String, IconMapping> iconMappings = {
   'bag': (android: 'Icons.work_outline', ios: 'CupertinoIcons.bag'),
   'bag_fill': (android: 'Icons.work', ios: 'CupertinoIcons.bag_fill'),
   'bandage': (android: 'Icons.healing', ios: 'CupertinoIcons.bandage'),
+  'bank': (
+    android: 'Icons.account_balance_outlined',
+    ios: 'CupertinoIcons.building_2_fill',
+  ),
   'bar_chart': (
     android: 'Icons.bar_chart',
     ios: 'CupertinoIcons.chart_bar_alt_fill',
@@ -650,6 +654,10 @@ const Map<String, IconMapping> iconMappings = {
   'mic_slash_fill': (
     android: 'Icons.mic_off',
     ios: 'CupertinoIcons.mic_slash_fill',
+  ),
+  'mobile_phone': (
+    android: 'Icons.phone_android_rounded',
+    ios: 'CupertinoIcons.device_phone_portrait',
   ),
   'money_dollar': (
     android: 'Icons.attach_money_sharp',

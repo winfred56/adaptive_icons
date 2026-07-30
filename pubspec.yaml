@@ -1,6 +1,6 @@
 name: flutter_adaptive_icons
 description: "Platform-aware adaptive icons for Flutter (Cupertino on Apple, Material on Android)."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/winfred56/adaptive_icons
 
 environment:

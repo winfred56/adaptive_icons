@@ -189,6 +189,11 @@ class AdaptiveIcons {
   static IconData get bandage =>
       _isApple() ? CupertinoIcons.bandage : Icons.healing;
 
+  /// Adaptive version of [bank]
+  static IconData get bank => _isApple()
+      ? CupertinoIcons.building_2_fill
+      : Icons.account_balance_outlined;
+
   /// Adaptive version of [bar_chart]
   static IconData get barChart =>
       _isApple() ? CupertinoIcons.chart_bar_alt_fill : Icons.bar_chart;
@@ -896,6 +901,11 @@ class AdaptiveIcons {
   /// Adaptive version of [mic_slash_fill]
   static IconData get micSlashFill =>
       _isApple() ? CupertinoIcons.mic_slash_fill : Icons.mic_off;
+
+  /// Adaptive version of [mobile_phone]
+  static IconData get mobilePhone => _isApple()
+      ? CupertinoIcons.device_phone_portrait
+      : Icons.phone_android_rounded;
 
   /// Adaptive version of [money_dollar]
   static IconData get moneyDollar =>

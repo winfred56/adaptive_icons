@@ -197,6 +197,10 @@ void main() {
       expect(AdaptiveIcons.bandage, Icons.healing);
     });
 
+    test('bank returns Material icon', () {
+      expect(AdaptiveIcons.bank, Icons.account_balance_outlined);
+    });
+
     test('barChart returns Material icon', () {
       expect(AdaptiveIcons.barChart, Icons.bar_chart);
     });
@@ -898,6 +902,10 @@ void main() {
 
     test('micSlashFill returns Material icon', () {
       expect(AdaptiveIcons.micSlashFill, Icons.mic_off);
+    });
+
+    test('mobilePhone returns Material icon', () {
+      expect(AdaptiveIcons.mobilePhone, Icons.phone_android_rounded);
     });
 
     test('moneyDollar returns Material icon', () {
@@ -1741,6 +1749,10 @@ void main() {
       expect(AdaptiveIcons.bandage, CupertinoIcons.bandage);
     });
 
+    test('bank returns Cupertino icon', () {
+      expect(AdaptiveIcons.bank, CupertinoIcons.building_2_fill);
+    });
+
     test('barChart returns Cupertino icon', () {
       expect(AdaptiveIcons.barChart, CupertinoIcons.chart_bar_alt_fill);
     });
@@ -2496,6 +2508,10 @@ void main() {
 
     test('micSlashFill returns Cupertino icon', () {
       expect(AdaptiveIcons.micSlashFill, CupertinoIcons.mic_slash_fill);
+    });
+
+    test('mobilePhone returns Cupertino icon', () {
+      expect(AdaptiveIcons.mobilePhone, CupertinoIcons.device_phone_portrait);
     });
 
     test('moneyDollar returns Cupertino icon', () {
