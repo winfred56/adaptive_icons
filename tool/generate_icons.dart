@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'convert_name_to_camel_case.dart';
+import 'generator_utils.dart';
 import 'icon_mappings.dart';
 
 void generateIcons() {

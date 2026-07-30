@@ -7,7 +7,7 @@ String convertNameToCamelCase(String name) {
 
   /// Start with the first segment unchanged, as camelCase begins
   /// with a lowercase word.
-  final buffer = StringBuffer(segments.first);
+  final buffer = StringBuffer(segments.first.toLowerCase());
 
   /// Capitalize the first letter of each remaining segment and
   /// append it to the result.
