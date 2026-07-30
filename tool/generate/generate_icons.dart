@@ -27,6 +27,6 @@ void generateIcons() {
   buffer.writeln("}");
 
   // 3. Save to your lib folder
-  File('lib/adaptive_icons.dart').writeAsStringSync(buffer.toString());
+  File('lib/flutter_adaptive_icons.dart').writeAsStringSync(buffer.toString());
   print("✅ Successfully generated adaptive icons!");
 }

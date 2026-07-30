@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_adaptive_icons/adaptive_icons.dart';
+import 'package:flutter_adaptive_icons/flutter_adaptive_icons.dart';
 
 void main() {
   group('Android Icons', () {
