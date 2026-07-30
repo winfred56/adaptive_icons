@@ -1,4 +1,5 @@
 # Flutter Adaptive Icons
+[![pub package](https://img.shields.io/pub/v/flutter_adaptive_icons.svg)](https://pub.dev/packages/flutter_adaptive_icons) ![GitHub](https://img.shields.io/github/license/winfred56/adaptive_icons)
 
 Platform-aware adaptive icons for Flutter.
 
