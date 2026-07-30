@@ -480,6 +480,10 @@ void main() {
       expect(AdaptiveIcons.compassFill, Icons.explore);
     });
 
+    test('copy returns Material icon', () {
+      expect(AdaptiveIcons.copy, Icons.copy);
+    });
+
     test('creditcard returns Material icon', () {
       expect(AdaptiveIcons.creditcard, Icons.credit_card);
     });
@@ -502,6 +506,10 @@ void main() {
 
     test('documentScanner returns Material icon', () {
       expect(AdaptiveIcons.documentScanner, Icons.document_scanner);
+    });
+
+    test('docText returns Material icon', () {
+      expect(AdaptiveIcons.docText, Icons.receipt);
     });
 
     test('docTextSearch returns Material icon', () {
@@ -576,12 +584,20 @@ void main() {
       expect(AdaptiveIcons.exclamationmark, Icons.priority_high);
     });
 
+    test('exclamationmarkCircled returns Material icon', () {
+      expect(AdaptiveIcons.exclamationmarkCircled, Icons.error_outline);
+    });
+
     test('exclamationmarkOctagon returns Material icon', () {
       expect(AdaptiveIcons.exclamationmarkOctagon, Icons.report_outlined);
     });
 
     test('exclamationmarkOctagonFill returns Material icon', () {
       expect(AdaptiveIcons.exclamationmarkOctagonFill, Icons.report);
+    });
+
+    test('exitToApp returns Material icon', () {
+      expect(AdaptiveIcons.exitToApp, Icons.exit_to_app);
     });
 
     test('eye returns Material icon', () {
@@ -976,6 +992,10 @@ void main() {
       expect(AdaptiveIcons.paperclip, Icons.attach_file);
     });
 
+    test('paperplane returns Material icon', () {
+      expect(AdaptiveIcons.paperplane, Icons.send);
+    });
+
     test('pause returns Material icon', () {
       expect(AdaptiveIcons.pause, Icons.pause);
     });
@@ -1182,6 +1202,10 @@ void main() {
 
     test('rays returns Material icon', () {
       expect(AdaptiveIcons.rays, Icons.wb_sunny_outlined);
+    });
+
+    test('receipt returns Material icon', () {
+      expect(AdaptiveIcons.receipt, Icons.receipt_long_outlined);
     });
 
     test('refresh returns Material icon', () {
@@ -2059,6 +2083,10 @@ void main() {
       expect(AdaptiveIcons.compassFill, CupertinoIcons.compass_fill);
     });
 
+    test('copy returns Cupertino icon', () {
+      expect(AdaptiveIcons.copy, CupertinoIcons.doc_on_clipboard);
+    });
+
     test('creditcard returns Cupertino icon', () {
       expect(AdaptiveIcons.creditcard, CupertinoIcons.creditcard);
     });
@@ -2081,6 +2109,10 @@ void main() {
 
     test('documentScanner returns Cupertino icon', () {
       expect(AdaptiveIcons.documentScanner, CupertinoIcons.doc_text_viewfinder);
+    });
+
+    test('docText returns Cupertino icon', () {
+      expect(AdaptiveIcons.docText, CupertinoIcons.doc_text);
     });
 
     test('docTextSearch returns Cupertino icon', () {
@@ -2161,6 +2193,13 @@ void main() {
       expect(AdaptiveIcons.exclamationmark, CupertinoIcons.exclamationmark);
     });
 
+    test('exclamationmarkCircled returns Cupertino icon', () {
+      expect(
+        AdaptiveIcons.exclamationmarkCircled,
+        CupertinoIcons.exclamationmark_circle,
+      );
+    });
+
     test('exclamationmarkOctagon returns Cupertino icon', () {
       expect(
         AdaptiveIcons.exclamationmarkOctagon,
@@ -2173,6 +2212,10 @@ void main() {
         AdaptiveIcons.exclamationmarkOctagonFill,
         CupertinoIcons.exclamationmark_octagon_fill,
       );
+    });
+
+    test('exitToApp returns Cupertino icon', () {
+      expect(AdaptiveIcons.exitToApp, CupertinoIcons.square_arrow_right);
     });
 
     test('eye returns Cupertino icon', () {
@@ -2588,6 +2631,10 @@ void main() {
       expect(AdaptiveIcons.paperclip, CupertinoIcons.paperclip);
     });
 
+    test('paperplane returns Cupertino icon', () {
+      expect(AdaptiveIcons.paperplane, CupertinoIcons.paperplane);
+    });
+
     test('pause returns Cupertino icon', () {
       expect(AdaptiveIcons.pause, CupertinoIcons.pause);
     });
@@ -2821,6 +2868,10 @@ void main() {
 
     test('rays returns Cupertino icon', () {
       expect(AdaptiveIcons.rays, CupertinoIcons.rays);
+    });
+
+    test('receipt returns Cupertino icon', () {
+      expect(AdaptiveIcons.receipt, CupertinoIcons.doc_text);
     });
 
     test('refresh returns Cupertino icon', () {

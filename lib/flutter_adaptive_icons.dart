@@ -476,6 +476,10 @@ class AdaptiveIcons {
   static IconData get compassFill =>
       _isApple() ? CupertinoIcons.compass_fill : Icons.explore;
 
+  /// Adaptive version of [copy]
+  static IconData get copy =>
+      _isApple() ? CupertinoIcons.doc_on_clipboard : Icons.copy;
+
   /// Adaptive version of [creditcard]
   static IconData get creditcard =>
       _isApple() ? CupertinoIcons.creditcard : Icons.credit_card;
@@ -498,6 +502,10 @@ class AdaptiveIcons {
   /// Adaptive version of [document_scanner]
   static IconData get documentScanner =>
       _isApple() ? CupertinoIcons.doc_text_viewfinder : Icons.document_scanner;
+
+  /// Adaptive version of [doc_text]
+  static IconData get docText =>
+      _isApple() ? CupertinoIcons.doc_text : Icons.receipt;
 
   /// Adaptive version of [doc_text_search]
   static IconData get docTextSearch =>
@@ -572,6 +580,10 @@ class AdaptiveIcons {
   static IconData get exclamationmark =>
       _isApple() ? CupertinoIcons.exclamationmark : Icons.priority_high;
 
+  /// Adaptive version of [exclamationmark_circled]
+  static IconData get exclamationmarkCircled =>
+      _isApple() ? CupertinoIcons.exclamationmark_circle : Icons.error_outline;
+
   /// Adaptive version of [exclamationmark_octagon]
   static IconData get exclamationmarkOctagon => _isApple()
       ? CupertinoIcons.exclamationmark_octagon
@@ -580,6 +592,10 @@ class AdaptiveIcons {
   /// Adaptive version of [exclamationmark_octagon_fill]
   static IconData get exclamationmarkOctagonFill =>
       _isApple() ? CupertinoIcons.exclamationmark_octagon_fill : Icons.report;
+
+  /// Adaptive version of [exit_to_app]
+  static IconData get exitToApp =>
+      _isApple() ? CupertinoIcons.square_arrow_right : Icons.exit_to_app;
 
   /// Adaptive version of [eye]
   static IconData get eye =>
@@ -975,6 +991,10 @@ class AdaptiveIcons {
   static IconData get paperclip =>
       _isApple() ? CupertinoIcons.paperclip : Icons.attach_file;
 
+  /// Adaptive version of [paperplane]
+  static IconData get paperplane =>
+      _isApple() ? CupertinoIcons.paperplane : Icons.send;
+
   /// Adaptive version of [pause]
   static IconData get pause => _isApple() ? CupertinoIcons.pause : Icons.pause;
 
@@ -1188,6 +1208,10 @@ class AdaptiveIcons {
   /// Adaptive version of [rays]
   static IconData get rays =>
       _isApple() ? CupertinoIcons.rays : Icons.wb_sunny_outlined;
+
+  /// Adaptive version of [receipt]
+  static IconData get receipt =>
+      _isApple() ? CupertinoIcons.doc_text : Icons.receipt_long_outlined;
 
   /// Adaptive version of [refresh]
   static IconData get refresh =>

@@ -360,6 +360,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.explore',
     ios: 'CupertinoIcons.compass_fill',
   ),
+  'copy': (android: 'Icons.copy', ios: 'CupertinoIcons.doc_on_clipboard'),
   'creditcard': (
     android: 'Icons.credit_card',
     ios: 'CupertinoIcons.creditcard',
@@ -375,6 +376,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.document_scanner',
     ios: 'CupertinoIcons.doc_text_viewfinder',
   ),
+  'doc_text': (android: 'Icons.receipt', ios: 'CupertinoIcons.doc_text'),
   'doc_text_search': (
     android: 'Icons.plagiarism_outlined',
     ios: 'CupertinoIcons.doc_text_search',
@@ -429,6 +431,10 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.priority_high',
     ios: 'CupertinoIcons.exclamationmark',
   ),
+  'exclamationmark_circled': (
+    android: 'Icons.error_outline',
+    ios: 'CupertinoIcons.exclamationmark_circle',
+  ),
   'exclamationmark_octagon': (
     android: 'Icons.report_outlined',
     ios: 'CupertinoIcons.exclamationmark_octagon',
@@ -436,6 +442,10 @@ const Map<String, IconMapping> iconMappings = {
   'exclamationmark_octagon_fill': (
     android: 'Icons.report',
     ios: 'CupertinoIcons.exclamationmark_octagon_fill',
+  ),
+  'exit_to_app': (
+    android: 'Icons.exit_to_app',
+    ios: 'CupertinoIcons.square_arrow_right',
   ),
   'eye': (android: 'Icons.visibility_outlined', ios: 'CupertinoIcons.eye'),
   'eye_fill': (android: 'Icons.visibility', ios: 'CupertinoIcons.eye_fill'),
@@ -703,6 +713,7 @@ const Map<String, IconMapping> iconMappings = {
     ios: 'CupertinoIcons.paintbrush_fill',
   ),
   'paperclip': (android: 'Icons.attach_file', ios: 'CupertinoIcons.paperclip'),
+  'paperplane': (android: 'Icons.send', ios: 'CupertinoIcons.paperplane'),
   'pause': (android: 'Icons.pause', ios: 'CupertinoIcons.pause'),
   'pause_circle': (
     android: 'Icons.pause_circle_outlined',
@@ -860,6 +871,10 @@ const Map<String, IconMapping> iconMappings = {
     ios: 'CupertinoIcons.question_square_fill',
   ),
   'rays': (android: 'Icons.wb_sunny_outlined', ios: 'CupertinoIcons.rays'),
+  'receipt': (
+    android: 'Icons.receipt_long_outlined',
+    ios: 'CupertinoIcons.doc_text',
+  ),
   'refresh': (android: 'Icons.refresh', ios: 'CupertinoIcons.refresh'),
   'repeat': (android: 'Icons.repeat', ios: 'CupertinoIcons.repeat'),
   'repeat_1': (android: 'Icons.repeat_one', ios: 'CupertinoIcons.repeat_1'),

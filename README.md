@@ -110,7 +110,7 @@ FloatingActionButton(
 
 <!-- GENERATED ICON TABLE START -->
 
-Currently includes **378** adaptive icon mappings.
+Currently includes **384** adaptive icon mappings.
 
 | Adaptive | Android | Apple |
 |----------|----------|--------|
@@ -227,11 +227,13 @@ Currently includes **378** adaptive icon mappings.
 | `AdaptiveIcons.cloudUploadFill` | `Icons.cloud_upload` | `CupertinoIcons.cloud_upload_fill` |
 | `AdaptiveIcons.compass` | `Icons.explore_outlined` | `CupertinoIcons.compass` |
 | `AdaptiveIcons.compassFill` | `Icons.explore` | `CupertinoIcons.compass_fill` |
+| `AdaptiveIcons.copy` | `Icons.copy` | `CupertinoIcons.doc_on_clipboard` |
 | `AdaptiveIcons.creditcard` | `Icons.credit_card` | `CupertinoIcons.creditcard` |
 | `AdaptiveIcons.crop` | `Icons.crop` | `CupertinoIcons.crop` |
 | `AdaptiveIcons.cropRotate` | `Icons.crop_rotate` | `CupertinoIcons.crop_rotate` |
 | `AdaptiveIcons.delete` | `Icons.delete_outline` | `CupertinoIcons.delete` |
 | `AdaptiveIcons.deleteFill` | `Icons.delete` | `CupertinoIcons.delete_solid` |
+| `AdaptiveIcons.docText` | `Icons.receipt` | `CupertinoIcons.doc_text` |
 | `AdaptiveIcons.docTextSearch` | `Icons.plagiarism_outlined` | `CupertinoIcons.doc_text_search` |
 | `AdaptiveIcons.documentScanner` | `Icons.document_scanner` | `CupertinoIcons.doc_text_viewfinder` |
 | `AdaptiveIcons.dotRadiowavesLeftRight` | `Icons.sensors` | `CupertinoIcons.dot_radiowaves_left_right` |
@@ -251,8 +253,10 @@ Currently includes **378** adaptive icon mappings.
 | `AdaptiveIcons.envelopeOpen` | `Icons.drafts_outlined` | `CupertinoIcons.envelope_open` |
 | `AdaptiveIcons.envelopeOpenFill` | `Icons.drafts` | `CupertinoIcons.envelope_open_fill` |
 | `AdaptiveIcons.exclamationmark` | `Icons.priority_high` | `CupertinoIcons.exclamationmark` |
+| `AdaptiveIcons.exclamationmarkCircled` | `Icons.error_outline` | `CupertinoIcons.exclamationmark_circle` |
 | `AdaptiveIcons.exclamationmarkOctagon` | `Icons.report_outlined` | `CupertinoIcons.exclamationmark_octagon` |
 | `AdaptiveIcons.exclamationmarkOctagonFill` | `Icons.report` | `CupertinoIcons.exclamationmark_octagon_fill` |
+| `AdaptiveIcons.exitToApp` | `Icons.exit_to_app` | `CupertinoIcons.square_arrow_right` |
 | `AdaptiveIcons.eye` | `Icons.visibility_outlined` | `CupertinoIcons.eye` |
 | `AdaptiveIcons.eyeFill` | `Icons.visibility` | `CupertinoIcons.eye_fill` |
 | `AdaptiveIcons.eyeSlash` | `Icons.visibility_off_outlined` | `CupertinoIcons.eye_slash` |
@@ -351,6 +355,7 @@ Currently includes **378** adaptive icon mappings.
 | `AdaptiveIcons.paintbrush` | `Icons.format_paint_outlined` | `CupertinoIcons.paintbrush` |
 | `AdaptiveIcons.paintbrushFill` | `Icons.format_paint` | `CupertinoIcons.paintbrush_fill` |
 | `AdaptiveIcons.paperclip` | `Icons.attach_file` | `CupertinoIcons.paperclip` |
+| `AdaptiveIcons.paperplane` | `Icons.send` | `CupertinoIcons.paperplane` |
 | `AdaptiveIcons.pause` | `Icons.pause` | `CupertinoIcons.pause` |
 | `AdaptiveIcons.pauseCircle` | `Icons.pause_circle_outlined` | `CupertinoIcons.pause_circle` |
 | `AdaptiveIcons.pauseCircleFill` | `Icons.pause_circle` | `CupertinoIcons.pause_circle_fill` |
@@ -403,6 +408,7 @@ Currently includes **378** adaptive icon mappings.
 | `AdaptiveIcons.questionSquare` | `Icons.help_center_outlined` | `CupertinoIcons.question_square` |
 | `AdaptiveIcons.questionSquareFill` | `Icons.help_center` | `CupertinoIcons.question_square_fill` |
 | `AdaptiveIcons.rays` | `Icons.wb_sunny_outlined` | `CupertinoIcons.rays` |
+| `AdaptiveIcons.receipt` | `Icons.receipt_long_outlined` | `CupertinoIcons.doc_text` |
 | `AdaptiveIcons.refresh` | `Icons.refresh` | `CupertinoIcons.refresh` |
 | `AdaptiveIcons.repeat` | `Icons.repeat` | `CupertinoIcons.repeat` |
 | `AdaptiveIcons.repeat1` | `Icons.repeat_one` | `CupertinoIcons.repeat_1` |
