@@ -1,8 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
-
-import 'generator_utils.dart';
+import '../generator_utils.dart';
 import 'icon_mappings.dart';
 
 void generateIcons() {
@@ -30,5 +28,5 @@ void generateIcons() {
 
   // 3. Save to your lib folder
   File('lib/adaptive_icons.dart').writeAsStringSync(buffer.toString());
-  debugPrint("✅ Successfully generated adaptive icons!");
+  print("✅ Successfully generated adaptive icons!");
 }

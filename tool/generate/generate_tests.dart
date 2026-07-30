@@ -1,8 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
-
-import 'generator_utils.dart';
+import '../generator_utils.dart';
 import 'icon_mappings.dart';
 
 void generateTests() {
@@ -16,7 +14,7 @@ void generateTests() {
   buffer.writeln("import 'package:flutter/foundation.dart';");
   buffer.writeln("import 'package:flutter/material.dart';");
   buffer.writeln("import 'package:flutter_test/flutter_test.dart';");
-  buffer.writeln("import 'package:adaptive_icons/adaptive_icons.dart';");
+  buffer.writeln("import 'package:flutter_adaptive_icons/adaptive_icons.dart';");
   buffer.writeln();
 
   buffer.writeln('void main() {');
@@ -86,5 +84,5 @@ void generateTests() {
 
   File('test/adaptive_icons_test.dart').writeAsStringSync(buffer.toString());
 
-  debugPrint('✅ Successfully generated tests!');
+  print('✅ Successfully generated tests!');
 }

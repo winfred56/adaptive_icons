@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
-
-import 'generate_icons.dart';
-import 'generate_tests.dart';
+import 'generate/generate_icons.dart';
+import 'generate/generate_readme.dart';
+import 'generate/generate_tests.dart';
 
 void main() {
   generateIcons();
   generateTests();
-  
-  debugPrint('🎉 AdaptiveIcons generated successfully!');
+  generateReadme();
+
+  print('🎉 AdaptiveIcons generated successfully!');
 }
