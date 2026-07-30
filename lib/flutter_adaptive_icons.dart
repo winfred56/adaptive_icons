@@ -593,6 +593,16 @@ class AdaptiveIcons {
   static IconData get exclamationmarkOctagonFill =>
       _isApple() ? CupertinoIcons.exclamationmark_octagon_fill : Icons.report;
 
+  /// Adaptive version of [exclamationmark_triangle]
+  static IconData get exclamationmarkTriangle => _isApple()
+      ? CupertinoIcons.exclamationmark_triangle
+      : Icons.warning_amber_rounded;
+
+  /// Adaptive version of [exclamationmark_triangle_fill]
+  static IconData get exclamationmarkTriangleFill => _isApple()
+      ? CupertinoIcons.exclamationmark_triangle_fill
+      : Icons.warning_rounded;
+
   /// Adaptive version of [exit_to_app]
   static IconData get exitToApp =>
       _isApple() ? CupertinoIcons.square_arrow_right : Icons.exit_to_app;

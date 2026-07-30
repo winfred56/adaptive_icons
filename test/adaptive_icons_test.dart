@@ -596,6 +596,17 @@ void main() {
       expect(AdaptiveIcons.exclamationmarkOctagonFill, Icons.report);
     });
 
+    test('exclamationmarkTriangle returns Material icon', () {
+      expect(
+        AdaptiveIcons.exclamationmarkTriangle,
+        Icons.warning_amber_rounded,
+      );
+    });
+
+    test('exclamationmarkTriangleFill returns Material icon', () {
+      expect(AdaptiveIcons.exclamationmarkTriangleFill, Icons.warning_rounded);
+    });
+
     test('exitToApp returns Material icon', () {
       expect(AdaptiveIcons.exitToApp, Icons.exit_to_app);
     });
@@ -2211,6 +2222,20 @@ void main() {
       expect(
         AdaptiveIcons.exclamationmarkOctagonFill,
         CupertinoIcons.exclamationmark_octagon_fill,
+      );
+    });
+
+    test('exclamationmarkTriangle returns Cupertino icon', () {
+      expect(
+        AdaptiveIcons.exclamationmarkTriangle,
+        CupertinoIcons.exclamationmark_triangle,
+      );
+    });
+
+    test('exclamationmarkTriangleFill returns Cupertino icon', () {
+      expect(
+        AdaptiveIcons.exclamationmarkTriangleFill,
+        CupertinoIcons.exclamationmark_triangle_fill,
       );
     });
 

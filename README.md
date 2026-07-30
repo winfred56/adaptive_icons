@@ -110,7 +110,7 @@ FloatingActionButton(
 
 <!-- GENERATED ICON TABLE START -->
 
-Currently includes **384** adaptive icon mappings.
+Currently includes **386** adaptive icon mappings.
 
 | Adaptive | Android | Apple |
 |----------|----------|--------|
@@ -256,6 +256,8 @@ Currently includes **384** adaptive icon mappings.
 | `AdaptiveIcons.exclamationmarkCircled` | `Icons.error_outline` | `CupertinoIcons.exclamationmark_circle` |
 | `AdaptiveIcons.exclamationmarkOctagon` | `Icons.report_outlined` | `CupertinoIcons.exclamationmark_octagon` |
 | `AdaptiveIcons.exclamationmarkOctagonFill` | `Icons.report` | `CupertinoIcons.exclamationmark_octagon_fill` |
+| `AdaptiveIcons.exclamationmarkTriangle` | `Icons.warning_amber_rounded` | `CupertinoIcons.exclamationmark_triangle` |
+| `AdaptiveIcons.exclamationmarkTriangleFill` | `Icons.warning_rounded` | `CupertinoIcons.exclamationmark_triangle_fill` |
 | `AdaptiveIcons.exitToApp` | `Icons.exit_to_app` | `CupertinoIcons.square_arrow_right` |
 | `AdaptiveIcons.eye` | `Icons.visibility_outlined` | `CupertinoIcons.eye` |
 | `AdaptiveIcons.eyeFill` | `Icons.visibility` | `CupertinoIcons.eye_fill` |

@@ -443,6 +443,14 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.report',
     ios: 'CupertinoIcons.exclamationmark_octagon_fill',
   ),
+  'exclamationmark_triangle': (
+    android: 'Icons.warning_amber_rounded',
+    ios: 'CupertinoIcons.exclamationmark_triangle',
+  ),
+  'exclamationmark_triangle_fill': (
+    android: 'Icons.warning_rounded',
+    ios: 'CupertinoIcons.exclamationmark_triangle_fill',
+  ),
   'exit_to_app': (
     android: 'Icons.exit_to_app',
     ios: 'CupertinoIcons.square_arrow_right',
