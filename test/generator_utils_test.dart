@@ -20,10 +20,7 @@ void main() {
     });
 
     test('ignores consecutive underscores', () {
-      expect(
-        convertNameToCamelCase('first__name'),
-        'firstName',
-      );
+      expect(convertNameToCamelCase('first__name'), 'firstName');
 
       expect(
         convertNameToCamelCase('first___middle____last'),
@@ -32,17 +29,11 @@ void main() {
     });
 
     test('ignores leading underscores', () {
-      expect(
-        convertNameToCamelCase('_first_name'),
-        'FirstName',
-      );
+      expect(convertNameToCamelCase('_first_name'), 'FirstName');
     });
 
     test('ignores trailing underscores', () {
-      expect(
-        convertNameToCamelCase('first_name__'),
-        'firstName',
-      );
+      expect(convertNameToCamelCase('first_name__'), 'firstName');
     });
 
     test('handles a string containing only underscores', () {
@@ -51,15 +42,9 @@ void main() {
     });
 
     test('should convert the casing of the first segment to lowercase', () {
-      expect(
-        convertNameToCamelCase('First_name'),
-        'firstName',
-      );
+      expect(convertNameToCamelCase('First_name'), 'firstName');
 
-      expect(
-        convertNameToCamelCase('FIRST_name'),
-        'firstName',
-      );
+      expect(convertNameToCamelCase('FIRST_name'), 'firstName');
     });
   });
 }

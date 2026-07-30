@@ -14,7 +14,9 @@ void generateTests() {
   buffer.writeln("import 'package:flutter/foundation.dart';");
   buffer.writeln("import 'package:flutter/material.dart';");
   buffer.writeln("import 'package:flutter_test/flutter_test.dart';");
-  buffer.writeln("import 'package:flutter_adaptive_icons/flutter_adaptive_icons.dart';");
+  buffer.writeln(
+    "import 'package:flutter_adaptive_icons/flutter_adaptive_icons.dart';",
+  );
   buffer.writeln();
 
   buffer.writeln('void main() {');

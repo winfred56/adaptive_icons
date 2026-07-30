@@ -1,13 +1,7 @@
-typedef IconMapping = ({
-  String android,
-  String ios,
-});
+typedef IconMapping = ({String android, String ios});
 
 const Map<String, IconMapping> iconMappings = {
-  'add': (
-    android: 'Icons.add',
-    ios: 'CupertinoIcons.add',
-  ),
+  'add': (android: 'Icons.add', ios: 'CupertinoIcons.add'),
   'add_box': (
     android: 'Icons.add_box_outlined',
     ios: 'CupertinoIcons.plus_app',
@@ -24,14 +18,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.add_circle',
     ios: 'CupertinoIcons.add_circled_solid',
   ),
-  'airplane': (
-    android: 'Icons.flight',
-    ios: 'CupertinoIcons.airplane',
-  ),
-  'alarm': (
-    android: 'Icons.alarm',
-    ios: 'CupertinoIcons.alarm',
-  ),
+  'airplane': (android: 'Icons.flight', ios: 'CupertinoIcons.airplane'),
+  'alarm': (android: 'Icons.alarm', ios: 'CupertinoIcons.alarm'),
   'archivebox': (
     android: 'Icons.inventory_2_outlined',
     ios: 'CupertinoIcons.archivebox',
@@ -68,10 +56,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.vertical_align_bottom',
     ios: 'CupertinoIcons.arrow_down_to_line',
   ),
-  'arrow_left': (
-    android: 'Icons.arrow_back',
-    ios: 'CupertinoIcons.arrow_left',
-  ),
+  'arrow_left': (android: 'Icons.arrow_back', ios: 'CupertinoIcons.arrow_left'),
   'arrow_left_circle': (
     android: 'Icons.arrow_circle_left_outlined',
     ios: 'CupertinoIcons.arrow_left_circle',
@@ -80,10 +65,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.arrow_circle_left',
     ios: 'CupertinoIcons.arrow_left_circle_fill',
   ),
-  'arrow_merge': (
-    android: 'Icons.merge',
-    ios: 'CupertinoIcons.arrow_merge',
-  ),
+  'arrow_merge': (android: 'Icons.merge', ios: 'CupertinoIcons.arrow_merge'),
   'arrow_right': (
     android: 'Icons.arrow_forward',
     ios: 'CupertinoIcons.arrow_right',
@@ -108,14 +90,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.arrow_circle_right',
     ios: 'CupertinoIcons.arrow_right_circle_fill',
   ),
-  'arrow_swap': (
-    android: 'Icons.swap_calls',
-    ios: 'CupertinoIcons.arrow_swap',
-  ),
-  'arrow_up': (
-    android: 'Icons.arrow_upward',
-    ios: 'CupertinoIcons.arrow_up',
-  ),
+  'arrow_swap': (android: 'Icons.swap_calls', ios: 'CupertinoIcons.arrow_swap'),
+  'arrow_up': (android: 'Icons.arrow_upward', ios: 'CupertinoIcons.arrow_up'),
   'arrow_up_arrow_down': (
     android: 'Icons.swap_vert',
     ios: 'CupertinoIcons.arrow_up_arrow_down',
@@ -152,10 +128,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.north_east',
     ios: 'CupertinoIcons.arrow_up_right',
   ),
-  'at': (
-    android: 'Icons.alternate_email',
-    ios: 'CupertinoIcons.at',
-  ),
+  'at': (android: 'Icons.alternate_email', ios: 'CupertinoIcons.at'),
   'backward': (
     android: 'Icons.fast_rewind_outlined',
     ios: 'CupertinoIcons.backward',
@@ -164,18 +137,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.fast_rewind',
     ios: 'CupertinoIcons.backward_fill',
   ),
-  'bag': (
-    android: 'Icons.work_outline',
-    ios: 'CupertinoIcons.bag',
-  ),
-  'bag_fill': (
-    android: 'Icons.work',
-    ios: 'CupertinoIcons.bag_fill',
-  ),
-  'bandage': (
-    android: 'Icons.healing',
-    ios: 'CupertinoIcons.bandage',
-  ),
+  'bag': (android: 'Icons.work_outline', ios: 'CupertinoIcons.bag'),
+  'bag_fill': (android: 'Icons.work', ios: 'CupertinoIcons.bag_fill'),
+  'bandage': (android: 'Icons.healing', ios: 'CupertinoIcons.bandage'),
   'bar_chart': (
     android: 'Icons.bar_chart',
     ios: 'CupertinoIcons.chart_bar_alt_fill',
@@ -204,10 +168,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.king_bed',
     ios: 'CupertinoIcons.bed_double_fill',
   ),
-  'bell': (
-    android: 'Icons.notifications_outlined',
-    ios: 'CupertinoIcons.bell',
-  ),
+  'bell': (android: 'Icons.notifications_outlined', ios: 'CupertinoIcons.bell'),
   'bell_fill': (
     android: 'Icons.notifications',
     ios: 'CupertinoIcons.bell_fill',
@@ -236,30 +197,12 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.delete_forever',
     ios: 'CupertinoIcons.bin_xmark_fill',
   ),
-  'bitcoin': (
-    android: 'Icons.currency_bitcoin',
-    ios: 'CupertinoIcons.bitcoin',
-  ),
-  'bluetooth': (
-    android: 'Icons.bluetooth',
-    ios: 'CupertinoIcons.bluetooth',
-  ),
-  'bold': (
-    android: 'Icons.format_bold',
-    ios: 'CupertinoIcons.bold',
-  ),
-  'bolt': (
-    android: 'Icons.bolt',
-    ios: 'CupertinoIcons.bolt',
-  ),
-  'book': (
-    android: 'Icons.book_outlined',
-    ios: 'CupertinoIcons.book',
-  ),
-  'book_fill': (
-    android: 'Icons.book',
-    ios: 'CupertinoIcons.book_fill',
-  ),
+  'bitcoin': (android: 'Icons.currency_bitcoin', ios: 'CupertinoIcons.bitcoin'),
+  'bluetooth': (android: 'Icons.bluetooth', ios: 'CupertinoIcons.bluetooth'),
+  'bold': (android: 'Icons.format_bold', ios: 'CupertinoIcons.bold'),
+  'bolt': (android: 'Icons.bolt', ios: 'CupertinoIcons.bolt'),
+  'book': (android: 'Icons.book_outlined', ios: 'CupertinoIcons.book'),
+  'book_fill': (android: 'Icons.book', ios: 'CupertinoIcons.book_fill'),
   'bookmark': (
     android: 'Icons.bookmark_outline',
     ios: 'CupertinoIcons.bookmark',
@@ -300,14 +243,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.forum',
     ios: 'CupertinoIcons.bubble_left_bubble_right_fill',
   ),
-  'bus': (
-    android: 'Icons.directions_bus',
-    ios: 'CupertinoIcons.bus',
-  ),
-  'calendar': (
-    android: 'Icons.calendar_month',
-    ios: 'CupertinoIcons.calendar',
-  ),
+  'bus': (android: 'Icons.directions_bus', ios: 'CupertinoIcons.bus'),
+  'calendar': (android: 'Icons.calendar_month', ios: 'CupertinoIcons.calendar'),
   'calendar_today': (
     android: 'Icons.calendar_today',
     ios: 'CupertinoIcons.calendar_today',
@@ -316,14 +253,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.calendar_today_outlined',
     ios: 'CupertinoIcons.calendar_today',
   ),
-  'camera': (
-    android: 'Icons.camera_outlined',
-    ios: 'CupertinoIcons.camera',
-  ),
-  'camera_fill': (
-    android: 'Icons.camera',
-    ios: 'CupertinoIcons.camera_fill',
-  ),
+  'camera': (android: 'Icons.camera_outlined', ios: 'CupertinoIcons.camera'),
+  'camera_fill': (android: 'Icons.camera', ios: 'CupertinoIcons.camera_fill'),
   'camera_rotate': (
     android: 'Icons.cameraswitch_outlined',
     ios: 'CupertinoIcons.camera_rotate',
@@ -344,14 +275,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.chat',
     ios: 'CupertinoIcons.captions_bubble_fill',
   ),
-  'car': (
-    android: 'Icons.directions_car',
-    ios: 'CupertinoIcons.car',
-  ),
-  'cart': (
-    android: 'Icons.shopping_cart_outlined',
-    ios: 'CupertinoIcons.cart',
-  ),
+  'car': (android: 'Icons.directions_car', ios: 'CupertinoIcons.car'),
+  'cart': (android: 'Icons.shopping_cart_outlined', ios: 'CupertinoIcons.cart'),
   'cart_fill': (
     android: 'Icons.shopping_cart',
     ios: 'CupertinoIcons.cart_fill',
@@ -364,10 +289,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cell_tower',
     ios: 'CupertinoIcons.antenna_radiowaves_left_right',
   ),
-  'check_mark': (
-    android: 'Icons.check',
-    ios: 'CupertinoIcons.check_mark',
-  ),
+  'check_mark': (android: 'Icons.check', ios: 'CupertinoIcons.check_mark'),
   'check_mark_circled': (
     android: 'Icons.check_circle_outline',
     ios: 'CupertinoIcons.check_mark_circled',
@@ -396,18 +318,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.chevron_left',
     ios: 'CupertinoIcons.chevron_back',
   ),
-  'circle': (
-    android: 'Icons.circle_outlined',
-    ios: 'CupertinoIcons.circle',
-  ),
-  'circle_fill': (
-    android: 'Icons.circle',
-    ios: 'CupertinoIcons.circle_fill',
-  ),
-  'clear': (
-    android: 'Icons.close',
-    ios: 'CupertinoIcons.clear',
-  ),
+  'circle': (android: 'Icons.circle_outlined', ios: 'CupertinoIcons.circle'),
+  'circle_fill': (android: 'Icons.circle', ios: 'CupertinoIcons.circle_fill'),
+  'clear': (android: 'Icons.close', ios: 'CupertinoIcons.clear'),
   'clear_circled': (
     android: 'Icons.cancel_outlined',
     ios: 'CupertinoIcons.clear_circled',
@@ -416,10 +329,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cancel',
     ios: 'CupertinoIcons.clear_circled_solid',
   ),
-  'cloud': (
-    android: 'Icons.cloud_outlined',
-    ios: 'CupertinoIcons.cloud',
-  ),
+  'cloud': (android: 'Icons.cloud_outlined', ios: 'CupertinoIcons.cloud'),
   'cloud_download': (
     android: 'Icons.cloud_download_outlined',
     ios: 'CupertinoIcons.cloud_download',
@@ -428,10 +338,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cloud_download',
     ios: 'CupertinoIcons.cloud_download_fill',
   ),
-  'cloud_fill': (
-    android: 'Icons.cloud',
-    ios: 'CupertinoIcons.cloud_fill',
-  ),
+  'cloud_fill': (android: 'Icons.cloud', ios: 'CupertinoIcons.cloud_fill'),
   'cloud_snow_fill': (
     android: 'Icons.cloudy_snowing',
     ios: 'CupertinoIcons.cloud_snow_fill',
@@ -444,10 +351,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cloud_upload',
     ios: 'CupertinoIcons.cloud_upload_fill',
   ),
-  'compass': (
-    android: 'Icons.explore_outlined',
-    ios: 'CupertinoIcons.compass',
-  ),
+  'compass': (android: 'Icons.explore_outlined', ios: 'CupertinoIcons.compass'),
   'compass_fill': (
     android: 'Icons.explore',
     ios: 'CupertinoIcons.compass_fill',
@@ -456,22 +360,13 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.credit_card',
     ios: 'CupertinoIcons.creditcard',
   ),
-  'crop': (
-    android: 'Icons.crop',
-    ios: 'CupertinoIcons.crop',
-  ),
+  'crop': (android: 'Icons.crop', ios: 'CupertinoIcons.crop'),
   'crop_rotate': (
     android: 'Icons.crop_rotate',
     ios: 'CupertinoIcons.crop_rotate',
   ),
-  'delete': (
-    android: 'Icons.delete_outline',
-    ios: 'CupertinoIcons.delete',
-  ),
-  'delete_fill': (
-    android: 'Icons.delete',
-    ios: 'CupertinoIcons.delete_solid',
-  ),
+  'delete': (android: 'Icons.delete_outline', ios: 'CupertinoIcons.delete'),
+  'delete_fill': (android: 'Icons.delete', ios: 'CupertinoIcons.delete_solid'),
   'document_scanner': (
     android: 'Icons.document_scanner',
     ios: 'CupertinoIcons.doc_text_viewfinder',
@@ -484,30 +379,18 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.sensors',
     ios: 'CupertinoIcons.dot_radiowaves_left_right',
   ),
-  'drop': (
-    android: 'Icons.water_drop_outlined',
-    ios: 'CupertinoIcons.drop',
-  ),
-  'drop_fill': (
-    android: 'Icons.water_drop',
-    ios: 'CupertinoIcons.drop_fill',
-  ),
+  'drop': (android: 'Icons.water_drop_outlined', ios: 'CupertinoIcons.drop'),
+  'drop_fill': (android: 'Icons.water_drop', ios: 'CupertinoIcons.drop_fill'),
   'edit_document': (
     android: 'Icons.edit_document',
     ios: 'CupertinoIcons.create',
   ),
-  'ellipsis': (
-    android: 'Icons.more_horiz',
-    ios: 'CupertinoIcons.ellipsis',
-  ),
+  'ellipsis': (android: 'Icons.more_horiz', ios: 'CupertinoIcons.ellipsis'),
   'ellipsis_vertical': (
     android: 'Icons.more_horiz',
     ios: 'CupertinoIcons.ellipsis_vertical',
   ),
-  'email': (
-    android: 'Icons.email_outlined',
-    ios: 'CupertinoIcons.mail',
-  ),
+  'email': (android: 'Icons.email_outlined', ios: 'CupertinoIcons.mail'),
   'email_rounded': (
     android: 'Icons.email_rounded',
     ios: 'CupertinoIcons.mail_solid',
@@ -536,14 +419,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.drafts',
     ios: 'CupertinoIcons.envelope_open_fill',
   ),
-  'eject': (
-    android: 'Icons.eject_outlined',
-    ios: 'CupertinoIcons.eject',
-  ),
-  'eject_fill': (
-    android: 'Icons.eject',
-    ios: 'CupertinoIcons.eject_fill',
-  ),
+  'eject': (android: 'Icons.eject_outlined', ios: 'CupertinoIcons.eject'),
+  'eject_fill': (android: 'Icons.eject', ios: 'CupertinoIcons.eject_fill'),
   'exclamationmark': (
     android: 'Icons.priority_high',
     ios: 'CupertinoIcons.exclamationmark',
@@ -556,14 +433,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.report',
     ios: 'CupertinoIcons.exclamationmark_octagon_fill',
   ),
-  'eye': (
-    android: 'Icons.visibility_outlined',
-    ios: 'CupertinoIcons.eye',
-  ),
-  'eye_fill': (
-    android: 'Icons.visibility',
-    ios: 'CupertinoIcons.eye_fill',
-  ),
+  'eye': (android: 'Icons.visibility_outlined', ios: 'CupertinoIcons.eye'),
+  'eye_fill': (android: 'Icons.visibility', ios: 'CupertinoIcons.eye_fill'),
   'eye_slash': (
     android: 'Icons.visibility_off_outlined',
     ios: 'CupertinoIcons.eye_slash',
@@ -580,10 +451,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.file_copy_rounded',
     ios: 'CupertinoIcons.doc_on_clipboard_fill',
   ),
-  'flag': (
-    android: 'Icons.flag_outlined',
-    ios: 'CupertinoIcons.flag',
-  ),
+  'flag': (android: 'Icons.flag_outlined', ios: 'CupertinoIcons.flag'),
   'flag_circle': (
     android: 'Icons.flag_circle_outlined',
     ios: 'CupertinoIcons.flag_circle',
@@ -592,10 +460,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.flag_circle',
     ios: 'CupertinoIcons.flag_circle_fill',
   ),
-  'flag_fill': (
-    android: 'Icons.flag',
-    ios: 'CupertinoIcons.flag_fill',
-  ),
+  'flag_fill': (android: 'Icons.flag', ios: 'CupertinoIcons.flag_fill'),
   'flame': (
     android: 'Icons.local_fire_department_outlined',
     ios: 'CupertinoIcons.flame',
@@ -604,14 +469,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.local_fire_department',
     ios: 'CupertinoIcons.flame_fill',
   ),
-  'folder': (
-    android: 'Icons.folder_outlined',
-    ios: 'CupertinoIcons.folder',
-  ),
-  'folder_fill': (
-    android: 'Icons.folder',
-    ios: 'CupertinoIcons.folder_fill',
-  ),
+  'folder': (android: 'Icons.folder_outlined', ios: 'CupertinoIcons.folder'),
+  'folder_fill': (android: 'Icons.folder', ios: 'CupertinoIcons.folder_fill'),
   'folder_badge_plus': (
     android: 'Icons.create_new_folder_outlined',
     ios: 'CupertinoIcons.folder_badge_plus',
@@ -624,18 +483,12 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.folder_open',
     ios: 'CupertinoIcons.folder_open',
   ),
-  'fullscreen': (
-    android: 'Icons.fullscreen',
-    ios: 'CupertinoIcons.fullscreen',
-  ),
+  'fullscreen': (android: 'Icons.fullscreen', ios: 'CupertinoIcons.fullscreen'),
   'fullscreen_exit': (
     android: 'Icons.fullscreen_exit',
     ios: 'CupertinoIcons.fullscreen_exit',
   ),
-  'function': (
-    android: 'Icons.functions',
-    ios: 'CupertinoIcons.function',
-  ),
+  'function': (android: 'Icons.functions', ios: 'CupertinoIcons.function'),
   'game_controller': (
     android: 'Icons.gamepad_outlined',
     ios: 'CupertinoIcons.game_controller',
@@ -644,18 +497,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.gamepad',
     ios: 'CupertinoIcons.game_controller_solid',
   ),
-  'gift': (
-    android: 'Icons.redeem',
-    ios: 'CupertinoIcons.gift',
-  ),
-  'globe': (
-    android: 'Icons.language',
-    ios: 'CupertinoIcons.globe',
-  ),
-  'gobackward': (
-    android: 'Icons.replay',
-    ios: 'CupertinoIcons.gobackward',
-  ),
+  'gift': (android: 'Icons.redeem', ios: 'CupertinoIcons.gift'),
+  'globe': (android: 'Icons.language', ios: 'CupertinoIcons.globe'),
+  'gobackward': (android: 'Icons.replay', ios: 'CupertinoIcons.gobackward'),
   'gobackward_10': (
     android: 'Icons.replay_10',
     ios: 'CupertinoIcons.gobackward_10',
@@ -672,14 +516,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.forward_30',
     ios: 'CupertinoIcons.goforward_30',
   ),
-  'group': (
-    android: 'Icons.groups_3_outlined',
-    ios: 'CupertinoIcons.group',
-  ),
-  'group_fill': (
-    android: 'Icons.groups_3',
-    ios: 'CupertinoIcons.group_solid',
-  ),
+  'group': (android: 'Icons.groups_3_outlined', ios: 'CupertinoIcons.group'),
+  'group_fill': (android: 'Icons.groups_3', ios: 'CupertinoIcons.group_solid'),
   'hand_draw': (
     android: 'Icons.swipe_down_outlined',
     ios: 'CupertinoIcons.hand_draw',
@@ -696,30 +534,15 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.front_hand',
     ios: 'CupertinoIcons.hand_raised_fill',
   ),
-  'headphones': (
-    android: 'Icons.headphones',
-    ios: 'CupertinoIcons.headphones',
-  ),
-  'heart': (
-    android: 'Icons.favorite_outline',
-    ios: 'CupertinoIcons.heart',
-  ),
-  'heart_fill': (
-    android: 'Icons.favorite',
-    ios: 'CupertinoIcons.heart_fill',
-  ),
-  'hexagon': (
-    android: 'Icons.hexagon_outlined',
-    ios: 'CupertinoIcons.hexagon',
-  ),
+  'headphones': (android: 'Icons.headphones', ios: 'CupertinoIcons.headphones'),
+  'heart': (android: 'Icons.favorite_outline', ios: 'CupertinoIcons.heart'),
+  'heart_fill': (android: 'Icons.favorite', ios: 'CupertinoIcons.heart_fill'),
+  'hexagon': (android: 'Icons.hexagon_outlined', ios: 'CupertinoIcons.hexagon'),
   'hexagon_fill': (
     android: 'Icons.hexagon',
     ios: 'CupertinoIcons.hexagon_fill',
   ),
-  'home': (
-    android: 'Icons.home',
-    ios: 'CupertinoIcons.home',
-  ),
+  'home': (android: 'Icons.home', ios: 'CupertinoIcons.home'),
   'hourglass': (
     android: 'Icons.hourglass_top_outlined',
     ios: 'CupertinoIcons.hourglass',
@@ -732,30 +555,12 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.hourglass_top',
     ios: 'CupertinoIcons.hourglass_tophalf_fill',
   ),
-  'house': (
-    android: 'Icons.house_outlined',
-    ios: 'CupertinoIcons.house_alt',
-  ),
-  'house_fill': (
-    android: 'Icons.house',
-    ios: 'CupertinoIcons.house_alt_fill',
-  ),
-  'infinite': (
-    android: 'Icons.all_inclusive',
-    ios: 'CupertinoIcons.infinite',
-  ),
-  'info': (
-    android: 'Icons.info_outline',
-    ios: 'CupertinoIcons.info',
-  ),
-  'info_fill': (
-    android: 'Icons.info',
-    ios: 'CupertinoIcons.info_circle_fill',
-  ),
-  'italic': (
-    android: 'Icons.format_italic',
-    ios: 'CupertinoIcons.italic',
-  ),
+  'house': (android: 'Icons.house_outlined', ios: 'CupertinoIcons.house_alt'),
+  'house_fill': (android: 'Icons.house', ios: 'CupertinoIcons.house_alt_fill'),
+  'infinite': (android: 'Icons.all_inclusive', ios: 'CupertinoIcons.infinite'),
+  'info': (android: 'Icons.info_outline', ios: 'CupertinoIcons.info'),
+  'info_fill': (android: 'Icons.info', ios: 'CupertinoIcons.info_circle_fill'),
+  'italic': (android: 'Icons.format_italic', ios: 'CupertinoIcons.italic'),
   'keyboard': (
     android: 'Icons.keyboard_outlined',
     ios: 'CupertinoIcons.keyboard',
@@ -768,14 +573,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.science',
     ios: 'CupertinoIcons.lab_flask_solid',
   ),
-  'layers': (
-    android: 'Icons.layers_outlined',
-    ios: 'CupertinoIcons.layers',
-  ),
-  'layers_fill': (
-    android: 'Icons.layers',
-    ios: 'CupertinoIcons.layers_fill',
-  ),
+  'layers': (android: 'Icons.layers_outlined', ios: 'CupertinoIcons.layers'),
+  'layers_fill': (android: 'Icons.layers', ios: 'CupertinoIcons.layers_fill'),
   'lightbulb': (
     android: 'Icons.lightbulb_outline',
     ios: 'CupertinoIcons.lightbulb',
@@ -784,10 +583,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.lightbulb',
     ios: 'CupertinoIcons.lightbulb_fill',
   ),
-  'link': (
-    android: 'Icons.link',
-    ios: 'CupertinoIcons.link',
-  ),
+  'link': (android: 'Icons.link', ios: 'CupertinoIcons.link'),
   'list_bullet': (
     android: 'Icons.format_list_bulleted',
     ios: 'CupertinoIcons.list_bullet',
@@ -816,18 +612,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.location_off',
     ios: 'CupertinoIcons.location_slash_fill',
   ),
-  'lock': (
-    android: 'Icons.lock_outlined',
-    ios: 'CupertinoIcons.lock',
-  ),
-  'lock_fill': (
-    android: 'Icons.lock',
-    ios: 'CupertinoIcons.lock_fill',
-  ),
-  'lock_open': (
-    android: 'Icons.lock_open',
-    ios: 'CupertinoIcons.lock_open',
-  ),
+  'lock': (android: 'Icons.lock_outlined', ios: 'CupertinoIcons.lock'),
+  'lock_fill': (android: 'Icons.lock', ios: 'CupertinoIcons.lock_fill'),
+  'lock_open': (android: 'Icons.lock_open', ios: 'CupertinoIcons.lock_open'),
   'lock_open_fill': (
     android: 'Icons.lock_open',
     ios: 'CupertinoIcons.lock_open_fill',
@@ -844,14 +631,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.no_encryption',
     ios: 'CupertinoIcons.lock_slash_fill',
   ),
-  'map': (
-    android: 'Icons.map_outlined',
-    ios: 'CupertinoIcons.map',
-  ),
-  'map_fill': (
-    android: 'Icons.map',
-    ios: 'CupertinoIcons.map_fill',
-  ),
+  'map': (android: 'Icons.map_outlined', ios: 'CupertinoIcons.map'),
+  'map_fill': (android: 'Icons.map', ios: 'CupertinoIcons.map_fill'),
   'map_pin': (
     android: 'Icons.location_on_outlined',
     ios: 'CupertinoIcons.map_pin',
@@ -860,14 +641,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.location_off_outlined',
     ios: 'CupertinoIcons.map_pin_slash',
   ),
-  'mic': (
-    android: 'Icons.mic_none',
-    ios: 'CupertinoIcons.mic',
-  ),
-  'mic_fill': (
-    android: 'Icons.mic',
-    ios: 'CupertinoIcons.mic_fill',
-  ),
+  'mic': (android: 'Icons.mic_none', ios: 'CupertinoIcons.mic'),
+  'mic_fill': (android: 'Icons.mic', ios: 'CupertinoIcons.mic_fill'),
   'mic_slash': (
     android: 'Icons.mic_off_outlined',
     ios: 'CupertinoIcons.mic_slash',
@@ -888,10 +663,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.paid',
     ios: 'CupertinoIcons.money_dollar_circle_fill',
   ),
-  'money_euro': (
-    android: 'Icons.euro',
-    ios: 'CupertinoIcons.money_euro',
-  ),
+  'money_euro': (android: 'Icons.euro', ios: 'CupertinoIcons.money_euro'),
   'money_pound': (
     android: 'Icons.currency_pound_sharp',
     ios: 'CupertinoIcons.money_pound',
@@ -900,18 +672,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.currency_ruble',
     ios: 'CupertinoIcons.money_rubl',
   ),
-  'money_yen': (
-    android: 'Icons.currency_yen',
-    ios: 'CupertinoIcons.money_yen',
-  ),
-  'moon': (
-    android: 'Icons.bedtime_outlined',
-    ios: 'CupertinoIcons.moon',
-  ),
-  'moon_fill': (
-    android: 'Icons.bedtime',
-    ios: 'CupertinoIcons.moon_fill',
-  ),
+  'money_yen': (android: 'Icons.currency_yen', ios: 'CupertinoIcons.money_yen'),
+  'moon': (android: 'Icons.bedtime_outlined', ios: 'CupertinoIcons.moon'),
+  'moon_fill': (android: 'Icons.bedtime', ios: 'CupertinoIcons.moon_fill'),
   'music_albums': (
     android: 'Icons.library_music_outlined',
     ios: 'CupertinoIcons.music_albums',
@@ -920,18 +683,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.library_music',
     ios: 'CupertinoIcons.music_albums_fill',
   ),
-  'music_note': (
-    android: 'Icons.music_note',
-    ios: 'CupertinoIcons.music_note',
-  ),
-  'news': (
-    android: 'Icons.newspaper',
-    ios: 'CupertinoIcons.news',
-  ),
-  'number': (
-    android: 'Icons.numbers',
-    ios: 'CupertinoIcons.number',
-  ),
+  'music_note': (android: 'Icons.music_note', ios: 'CupertinoIcons.music_note'),
+  'news': (android: 'Icons.newspaper', ios: 'CupertinoIcons.news'),
+  'number': (android: 'Icons.numbers', ios: 'CupertinoIcons.number'),
   'paintbrush': (
     android: 'Icons.format_paint_outlined',
     ios: 'CupertinoIcons.paintbrush',
@@ -940,34 +694,19 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.format_paint',
     ios: 'CupertinoIcons.paintbrush_fill',
   ),
-  'paperclip': (
-    android: 'Icons.attach_file',
-    ios: 'CupertinoIcons.paperclip',
-  ),
-  'pause': (
-    android: 'Icons.pause',
-    ios: 'CupertinoIcons.pause',
-  ),
+  'paperclip': (android: 'Icons.attach_file', ios: 'CupertinoIcons.paperclip'),
+  'pause': (android: 'Icons.pause', ios: 'CupertinoIcons.pause'),
   'pause_circle': (
     android: 'Icons.pause_circle_outlined',
     ios: 'CupertinoIcons.pause_circle',
   ),
-  'percent': (
-    android: 'Icons.percent',
-    ios: 'CupertinoIcons.percent',
-  ),
+  'percent': (android: 'Icons.percent', ios: 'CupertinoIcons.percent'),
   'pause_circle_fill': (
     android: 'Icons.pause_circle',
     ios: 'CupertinoIcons.pause_circle_fill',
   ),
-  'person': (
-    android: 'Icons.person_outline',
-    ios: 'CupertinoIcons.person',
-  ),
-  'person_2': (
-    android: 'Icons.group_outlined',
-    ios: 'CupertinoIcons.person_2',
-  ),
+  'person': (android: 'Icons.person_outline', ios: 'CupertinoIcons.person'),
+  'person_2': (android: 'Icons.group_outlined', ios: 'CupertinoIcons.person_2'),
   'person_2_fill': (
     android: 'Icons.group',
     ios: 'CupertinoIcons.person_2_fill',
@@ -988,10 +727,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.person_add',
     ios: 'CupertinoIcons.person_add_solid',
   ),
-  'person_alt': (
-    android: 'Icons.person_3',
-    ios: 'CupertinoIcons.person_alt',
-  ),
+  'person_alt': (android: 'Icons.person_3', ios: 'CupertinoIcons.person_alt'),
   'person_badge_minus': (
     android: 'Icons.person_remove_outlined',
     ios: 'CupertinoIcons.person_badge_minus',
@@ -1024,18 +760,12 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.account_box',
     ios: 'CupertinoIcons.person_crop_square_fill',
   ),
-  'person_fill': (
-    android: 'Icons.person',
-    ios: 'CupertinoIcons.person_fill',
-  ),
+  'person_fill': (android: 'Icons.person', ios: 'CupertinoIcons.person_fill'),
   'personalhotspot': (
     android: 'Icons.wifi_tethering',
     ios: 'CupertinoIcons.personalhotspot',
   ),
-  'phone': (
-    android: 'Icons.phone_outlined',
-    ios: 'CupertinoIcons.phone',
-  ),
+  'phone': (android: 'Icons.phone_outlined', ios: 'CupertinoIcons.phone'),
   'phone_arrow_down_left': (
     android: 'Icons.phone_callback_outlined',
     ios: 'CupertinoIcons.phone_arrow_down_left',
@@ -1044,10 +774,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.phone_forwarded_outlined',
     ios: 'CupertinoIcons.phone_arrow_right',
   ),
-  'phone_fill': (
-    android: 'Icons.phone',
-    ios: 'CupertinoIcons.phone_fill',
-  ),
+  'phone_fill': (android: 'Icons.phone', ios: 'CupertinoIcons.phone_fill'),
   'phone_arrow_down_left_fill': (
     android: 'Icons.phone_callback',
     ios: 'CupertinoIcons.phone_fill_arrow_down_left',
@@ -1056,10 +783,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.phone_forwarded',
     ios: 'CupertinoIcons.phone_fill_arrow_right',
   ),
-  'photo': (
-    android: 'Icons.photo_outlined',
-    ios: 'CupertinoIcons.photo',
-  ),
+  'photo': (android: 'Icons.photo_outlined', ios: 'CupertinoIcons.photo'),
   'photo_camera': (
     android: 'Icons.photo_camera_outlined',
     ios: 'CupertinoIcons.photo_camera',
@@ -1068,14 +792,8 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.photo_camera',
     ios: 'CupertinoIcons.photo_camera_solid',
   ),
-  'photo_fill': (
-    android: 'Icons.photo',
-    ios: 'CupertinoIcons.photo_fill',
-  ),
-  'piano': (
-    android: 'Icons.piano',
-    ios: 'CupertinoIcons.piano',
-  ),
+  'photo_fill': (android: 'Icons.photo', ios: 'CupertinoIcons.photo_fill'),
+  'piano': (android: 'Icons.piano', ios: 'CupertinoIcons.piano'),
   'pie_chart': (
     android: 'Icons.pie_chart_outline',
     ios: 'CupertinoIcons.chart_pie',
@@ -1092,10 +810,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.location_on',
     ios: 'CupertinoIcons.placemark_fill',
   ),
-  'play': (
-    android: 'Icons.play_arrow_outlined',
-    ios: 'CupertinoIcons.play',
-  ),
+  'play': (android: 'Icons.play_arrow_outlined', ios: 'CupertinoIcons.play'),
   'play_fill': (
     android: 'Icons.play_arrow',
     ios: 'CupertinoIcons.play_arrow_solid',
@@ -1108,22 +823,10 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.play_circle',
     ios: 'CupertinoIcons.play_circle_fill',
   ),
-  'power': (
-    android: 'Icons.power_settings_new',
-    ios: 'CupertinoIcons.power',
-  ),
-  'printer': (
-    android: 'Icons.print_outlined',
-    ios: 'CupertinoIcons.printer',
-  ),
-  'printer_fill': (
-    android: 'Icons.print',
-    ios: 'CupertinoIcons.printer_fill',
-  ),
-  'qrcode': (
-    android: 'Icons.qr_code_2',
-    ios: 'CupertinoIcons.qrcode',
-  ),
+  'power': (android: 'Icons.power_settings_new', ios: 'CupertinoIcons.power'),
+  'printer': (android: 'Icons.print_outlined', ios: 'CupertinoIcons.printer'),
+  'printer_fill': (android: 'Icons.print', ios: 'CupertinoIcons.printer_fill'),
+  'qrcode': (android: 'Icons.qr_code_2', ios: 'CupertinoIcons.qrcode'),
   'qr_code_scanner': (
     android: 'Icons.qr_code_scanner',
     ios: 'CupertinoIcons.qrcode_viewfinder',
@@ -1148,26 +851,11 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.help_center',
     ios: 'CupertinoIcons.question_square_fill',
   ),
-  'rays': (
-    android: 'Icons.wb_sunny_outlined',
-    ios: 'CupertinoIcons.rays',
-  ),
-  'refresh': (
-    android: 'Icons.refresh',
-    ios: 'CupertinoIcons.refresh',
-  ),
-  'repeat': (
-    android: 'Icons.repeat',
-    ios: 'CupertinoIcons.repeat',
-  ),
-  'repeat_1': (
-    android: 'Icons.repeat_one',
-    ios: 'CupertinoIcons.repeat_1',
-  ),
-  'reply': (
-    android: 'Icons.reply_outlined',
-    ios: 'CupertinoIcons.reply',
-  ),
+  'rays': (android: 'Icons.wb_sunny_outlined', ios: 'CupertinoIcons.rays'),
+  'refresh': (android: 'Icons.refresh', ios: 'CupertinoIcons.refresh'),
+  'repeat': (android: 'Icons.repeat', ios: 'CupertinoIcons.repeat'),
+  'repeat_1': (android: 'Icons.repeat_one', ios: 'CupertinoIcons.repeat_1'),
+  'reply': (android: 'Icons.reply_outlined', ios: 'CupertinoIcons.reply'),
   'reply_all': (
     android: 'Icons.reply_all_outlined',
     ios: 'CupertinoIcons.reply_all',
@@ -1176,10 +864,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.reply_all',
     ios: 'CupertinoIcons.reply_thick_solid',
   ),
-  'resize': (
-    android: 'Icons.open_in_full',
-    ios: 'CupertinoIcons.resize',
-  ),
+  'resize': (android: 'Icons.open_in_full', ios: 'CupertinoIcons.resize'),
   'return_icon': (
     android: 'Icons.keyboard_return',
     ios: 'CupertinoIcons.return_icon',
@@ -1192,58 +877,28 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.rocket_launch',
     ios: 'CupertinoIcons.rocket_fill',
   ),
-  'save': (
-    android: 'Icons.save',
-    ios: 'CupertinoIcons.floppy_disk',
-  ),
-  'scissors': (
-    android: 'Icons.content_cut',
-    ios: 'CupertinoIcons.scissors',
-  ),
+  'save': (android: 'Icons.save', ios: 'CupertinoIcons.floppy_disk'),
+  'scissors': (android: 'Icons.content_cut', ios: 'CupertinoIcons.scissors'),
   'scribble': (
     android: 'Icons.gesture_outlined',
     ios: 'CupertinoIcons.scribble',
   ),
-  'search': (
-    android: 'Icons.search',
-    ios: 'CupertinoIcons.search',
-  ),
+  'search': (android: 'Icons.search', ios: 'CupertinoIcons.search'),
   'settings': (
     android: 'Icons.settings_outlined',
     ios: 'CupertinoIcons.settings',
   ),
-  'settings_fill': (
-    android: 'Icons.settings',
-    ios: 'CupertinoIcons.settings',
-  ),
-  'share': (
-    android: 'Icons.share',
-    ios: 'CupertinoIcons.share',
-  ),
-  'shield': (
-    android: 'Icons.shield_outlined',
-    ios: 'CupertinoIcons.shield',
-  ),
-  'shield_fill': (
-    android: 'Icons.share',
-    ios: 'CupertinoIcons.shield_fill',
-  ),
-  'shuffle': (
-    android: 'Icons.shuffle',
-    ios: 'CupertinoIcons.shuffle',
-  ),
-  'signature': (
-    android: 'Icons.gesture',
-    ios: 'CupertinoIcons.signature',
-  ),
+  'settings_fill': (android: 'Icons.settings', ios: 'CupertinoIcons.settings'),
+  'share': (android: 'Icons.share', ios: 'CupertinoIcons.share'),
+  'shield': (android: 'Icons.shield_outlined', ios: 'CupertinoIcons.shield'),
+  'shield_fill': (android: 'Icons.share', ios: 'CupertinoIcons.shield_fill'),
+  'shuffle': (android: 'Icons.shuffle', ios: 'CupertinoIcons.shuffle'),
+  'signature': (android: 'Icons.gesture', ios: 'CupertinoIcons.signature'),
   'smiley': (
     android: 'Icons.sentiment_satisfied_outlined',
     ios: 'CupertinoIcons.smiley',
   ),
-  'snow': (
-    android: 'Icons.ac_unit',
-    ios: 'CupertinoIcons.snow',
-  ),
+  'snow': (android: 'Icons.ac_unit', ios: 'CupertinoIcons.snow'),
   'speaker': (
     android: 'Icons.speaker_outlined',
     ios: 'CupertinoIcons.hifispeaker',
@@ -1256,22 +911,13 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.speed_outlined',
     ios: 'CupertinoIcons.speedometer',
   ),
-  'star': (
-    android: 'Icons.star_border_outlined',
-    ios: 'CupertinoIcons.star',
-  ),
-  'star_fill': (
-    android: 'Icons.star',
-    ios: 'CupertinoIcons.star_fill',
-  ),
+  'star': (android: 'Icons.star_border_outlined', ios: 'CupertinoIcons.star'),
+  'star_fill': (android: 'Icons.star', ios: 'CupertinoIcons.star_fill'),
   'star_half_fill': (
     android: 'Icons.star_half_outlined',
     ios: 'CupertinoIcons.star_lefthalf_fill',
   ),
-  'stop': (
-    android: 'Icons.stop_outlined',
-    ios: 'CupertinoIcons.stop',
-  ),
+  'stop': (android: 'Icons.stop_outlined', ios: 'CupertinoIcons.stop'),
   'stop_circle': (
     android: 'Icons.stop_circle_outlined',
     ios: 'CupertinoIcons.stop_circle',
@@ -1280,10 +926,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.stop_circle',
     ios: 'CupertinoIcons.stop_circle_fill',
   ),
-  'stop_fill': (
-    android: 'Icons.stop',
-    ios: 'CupertinoIcons.stop_fill',
-  ),
+  'stop_fill': (android: 'Icons.stop', ios: 'CupertinoIcons.stop_fill'),
   'stopwatch': (
     android: 'Icons.timer_outlined',
     ios: 'CupertinoIcons.stopwatch',
@@ -1296,18 +939,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.strikethrough_s',
     ios: 'CupertinoIcons.strikethrough',
   ),
-  'sum': (
-    android: 'Icons.functions',
-    ios: 'CupertinoIcons.sum',
-  ),
-  'sunny': (
-    android: 'Icons.wb_sunny_outlined',
-    ios: 'CupertinoIcons.sun_max',
-  ),
-  'sunny_fill': (
-    android: 'Icons.wb_sunny',
-    ios: 'CupertinoIcons.sun_max_fill',
-  ),
+  'sum': (android: 'Icons.functions', ios: 'CupertinoIcons.sum'),
+  'sunny': (android: 'Icons.wb_sunny_outlined', ios: 'CupertinoIcons.sun_max'),
+  'sunny_fill': (android: 'Icons.wb_sunny', ios: 'CupertinoIcons.sun_max_fill'),
   'switch_camera': (
     android: 'Icons.cameraswitch_outlined',
     ios: 'CupertinoIcons.switch_camera',
@@ -1316,18 +950,9 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cameraswitch',
     ios: 'CupertinoIcons.switch_camera_solid',
   ),
-  'table': (
-    android: 'Icons.table_chart_outlined',
-    ios: 'CupertinoIcons.table',
-  ),
-  'tag': (
-    android: 'Icons.sell_outlined',
-    ios: 'CupertinoIcons.tag',
-  ),
-  'tag_fill': (
-    android: 'Icons.sell',
-    ios: 'CupertinoIcons.tag_fill',
-  ),
+  'table': (android: 'Icons.table_chart_outlined', ios: 'CupertinoIcons.table'),
+  'tag': (android: 'Icons.sell_outlined', ios: 'CupertinoIcons.tag'),
+  'tag_fill': (android: 'Icons.sell', ios: 'CupertinoIcons.tag_fill'),
   'text_aligncenter': (
     android: 'Icons.format_align_center',
     ios: 'CupertinoIcons.text_aligncenter',
@@ -1380,50 +1005,20 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.confirmation_num',
     ios: 'CupertinoIcons.ticket_fill',
   ),
-  'time': (
-    android: 'Icons.access_time',
-    ios: 'CupertinoIcons.time',
-  ),
+  'time': (android: 'Icons.access_time', ios: 'CupertinoIcons.time'),
   'time_fill': (
     android: 'Icons.access_time_filled',
     ios: 'CupertinoIcons.time_solid',
   ),
-  'timelapse': (
-    android: 'Icons.timelapse',
-    ios: 'CupertinoIcons.timelapse',
-  ),
-  'train': (
-    android: 'Icons.train',
-    ios: 'CupertinoIcons.train_style_one',
-  ),
-  'tram': (
-    android: 'Icons.tram',
-    ios: 'CupertinoIcons.tram_fill',
-  ),
-  'trash': (
-    android: 'Icons.delete_outline',
-    ios: 'CupertinoIcons.trash',
-  ),
-  'trash_fill': (
-    android: 'Icons.delete',
-    ios: 'CupertinoIcons.trash_fill',
-  ),
-  'tray': (
-    android: 'Icons.inbox_outlined',
-    ios: 'CupertinoIcons.tray',
-  ),
-  'tray_fill': (
-    android: 'Icons.inbox',
-    ios: 'CupertinoIcons.tray_fill',
-  ),
-  'tv': (
-    android: 'Icons.tv',
-    ios: 'CupertinoIcons.tv',
-  ),
-  'umbrella': (
-    android: 'Icons.umbrella',
-    ios: 'CupertinoIcons.umbrella',
-  ),
+  'timelapse': (android: 'Icons.timelapse', ios: 'CupertinoIcons.timelapse'),
+  'train': (android: 'Icons.train', ios: 'CupertinoIcons.train_style_one'),
+  'tram': (android: 'Icons.tram', ios: 'CupertinoIcons.tram_fill'),
+  'trash': (android: 'Icons.delete_outline', ios: 'CupertinoIcons.trash'),
+  'trash_fill': (android: 'Icons.delete', ios: 'CupertinoIcons.trash_fill'),
+  'tray': (android: 'Icons.inbox_outlined', ios: 'CupertinoIcons.tray'),
+  'tray_fill': (android: 'Icons.inbox', ios: 'CupertinoIcons.tray_fill'),
+  'tv': (android: 'Icons.tv', ios: 'CupertinoIcons.tv'),
+  'umbrella': (android: 'Icons.umbrella', ios: 'CupertinoIcons.umbrella'),
   'underline': (
     android: 'Icons.format_underline',
     ios: 'CupertinoIcons.underline',
@@ -1476,10 +1071,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.volume_off',
     ios: 'CupertinoIcons.speaker_slash_fill',
   ),
-  'wifi': (
-    android: 'Icons.wifi',
-    ios: 'CupertinoIcons.wifi',
-  ),
+  'wifi': (android: 'Icons.wifi', ios: 'CupertinoIcons.wifi'),
   'wifi_exclamationmark': (
     android: 'Icons.signal_wifi_statusbar_connected_no_internet_4_outlined',
     ios: 'CupertinoIcons.wifi_exclamationmark',
@@ -1488,10 +1080,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.wifi_off_outlined',
     ios: 'CupertinoIcons.wifi_slash',
   ),
-  'xmark': (
-    android: 'Icons.close',
-    ios: 'CupertinoIcons.clear',
-  ),
+  'xmark': (android: 'Icons.close', ios: 'CupertinoIcons.clear'),
   'xmark_circled': (
     android: 'Icons.cancel_outlined',
     ios: 'CupertinoIcons.clear_circled',
@@ -1500,13 +1089,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.cancel',
     ios: 'CupertinoIcons.clear_circled_solid',
   ),
-  'zoom_in': (
-    android: 'Icons.zoom_in',
-    ios: 'CupertinoIcons.zoom_in',
-  ),
-  'zoom_out': (
-    android: 'Icons.zoom_out',
-    ios: 'CupertinoIcons.zoom_out',
-  ),
+  'zoom_in': (android: 'Icons.zoom_in', ios: 'CupertinoIcons.zoom_in'),
+  'zoom_out': (android: 'Icons.zoom_out', ios: 'CupertinoIcons.zoom_out'),
   // Add more here...
 };
