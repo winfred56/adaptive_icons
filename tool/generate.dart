@@ -1,11 +1,11 @@
 import 'generate/generate_icons.dart';
-import 'generate/generate_readme.dart';
+import 'generate/generate_icons_table.dart';
 import 'generate/generate_tests.dart';
 
 void main() {
   generateIcons();
   generateTests();
-  generateReadme();
+  generateIconsTable();
 
   print('🎉 AdaptiveIcons generated successfully!');
 }
