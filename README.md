@@ -110,7 +110,7 @@ FloatingActionButton(
 
 <!-- GENERATED ICON TABLE START -->
 
-Currently includes **386** adaptive icon mappings.
+Currently includes **387** adaptive icon mappings.
 
 | Adaptive | Android | Apple |
 |----------|----------|--------|
@@ -361,6 +361,7 @@ Currently includes **386** adaptive icon mappings.
 | `AdaptiveIcons.pause` | `Icons.pause` | `CupertinoIcons.pause` |
 | `AdaptiveIcons.pauseCircle` | `Icons.pause_circle_outlined` | `CupertinoIcons.pause_circle` |
 | `AdaptiveIcons.pauseCircleFill` | `Icons.pause_circle` | `CupertinoIcons.pause_circle_fill` |
+| `AdaptiveIcons.pencil` | `Icons.edit` | `CupertinoIcons.pencil` |
 | `AdaptiveIcons.percent` | `Icons.percent` | `CupertinoIcons.percent` |
 | `AdaptiveIcons.person` | `Icons.person_outline` | `CupertinoIcons.person` |
 | `AdaptiveIcons.person2` | `Icons.group_outlined` | `CupertinoIcons.person_2` |

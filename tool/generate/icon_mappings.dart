@@ -727,6 +727,7 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.pause_circle_outlined',
     ios: 'CupertinoIcons.pause_circle',
   ),
+  'pencil': (android: 'Icons.edit', ios: 'CupertinoIcons.pencil'),
   'percent': (android: 'Icons.percent', ios: 'CupertinoIcons.percent'),
   'pause_circle_fill': (
     android: 'Icons.pause_circle',

@@ -1,4 +1,4 @@
-## 0.0.5
+## 0.0.6
 
 - Added new icon mappings
 - Improved documentation
