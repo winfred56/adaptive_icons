@@ -612,6 +612,10 @@ class AdaptiveIcons {
   static IconData get fileCopyFill => 
       _isApple() ? CupertinoIcons.doc_on_clipboard_fill : Icons.file_copy_rounded;
 
+  /// Adaptive version of [filter]
+  static IconData get filter => 
+      _isApple() ? CupertinoIcons.slider_horizontal_3 : Icons.tune_rounded;
+
   /// Adaptive version of [flag]
   static IconData get flag => 
       _isApple() ? CupertinoIcons.flag : Icons.flag_outlined;

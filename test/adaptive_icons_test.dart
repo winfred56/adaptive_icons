@@ -1073,6 +1073,13 @@ void main() {
       );
     });
     
+    test('filter returns Material icon', () {
+      expect(
+        AdaptiveIcons.filter,
+        Icons.tune_rounded,
+      );
+    });
+    
     test('flag returns Material icon', () {
       expect(
         AdaptiveIcons.flag,
@@ -3790,6 +3797,13 @@ void main() {
       expect(
         AdaptiveIcons.fileCopyFill,
         CupertinoIcons.doc_on_clipboard_fill,
+      );
+    });
+    
+    test('filter returns Cupertino icon', () {
+      expect(
+        AdaptiveIcons.filter,
+        CupertinoIcons.slider_horizontal_3,
       );
     });
     

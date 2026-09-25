@@ -28,7 +28,7 @@ Write your UI once without platform checks.
 
 ```yaml
 dependencies:
-  flutter_adaptive_icons: ^1.0.0
+  flutter_adaptive_icons: ^0.0.6
 ```
 
 Then import:
@@ -110,7 +110,7 @@ FloatingActionButton(
 
 <!-- GENERATED ICON TABLE START -->
 
-Currently includes **387** adaptive icon mappings.
+Currently includes **388** adaptive icon mappings.
 
 | Adaptive | Android | Apple |
 |----------|----------|--------|
@@ -265,6 +265,7 @@ Currently includes **387** adaptive icon mappings.
 | `AdaptiveIcons.eyeSlashFill` | `Icons.visibility_off_rounded` | `CupertinoIcons.eye_slash_fill` |
 | `AdaptiveIcons.fileCopy` | `Icons.file_copy` | `CupertinoIcons.doc_on_clipboard` |
 | `AdaptiveIcons.fileCopyFill` | `Icons.file_copy_rounded` | `CupertinoIcons.doc_on_clipboard_fill` |
+| `AdaptiveIcons.filter` | `Icons.tune_rounded` | `CupertinoIcons.slider_horizontal_3` |
 | `AdaptiveIcons.flag` | `Icons.flag_outlined` | `CupertinoIcons.flag` |
 | `AdaptiveIcons.flagCircle` | `Icons.flag_circle_outlined` | `CupertinoIcons.flag_circle` |
 | `AdaptiveIcons.flagCircleFill` | `Icons.flag_circle` | `CupertinoIcons.flag_circle_fill` |

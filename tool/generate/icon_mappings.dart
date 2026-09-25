@@ -473,6 +473,10 @@ const Map<String, IconMapping> iconMappings = {
     android: 'Icons.file_copy_rounded',
     ios: 'CupertinoIcons.doc_on_clipboard_fill',
   ),
+  'filter': (
+    android: 'Icons.tune_rounded',
+    ios: 'CupertinoIcons.slider_horizontal_3',
+  ),
   'flag': (android: 'Icons.flag_outlined', ios: 'CupertinoIcons.flag'),
   'flag_circle': (
     android: 'Icons.flag_circle_outlined',
