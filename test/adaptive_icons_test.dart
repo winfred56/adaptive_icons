@@ -908,7 +908,7 @@ void main() {
     test('ellipsisVertical returns Material icon', () {
       expect(
         AdaptiveIcons.ellipsisVertical,
-        Icons.more_horiz,
+        Icons.more_vert_rounded,
       );
     });
     

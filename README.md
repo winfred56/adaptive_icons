@@ -243,7 +243,7 @@ Currently includes **388** adaptive icon mappings.
 | `AdaptiveIcons.eject` | `Icons.eject_outlined` | `CupertinoIcons.eject` |
 | `AdaptiveIcons.ejectFill` | `Icons.eject` | `CupertinoIcons.eject_fill` |
 | `AdaptiveIcons.ellipsis` | `Icons.more_horiz` | `CupertinoIcons.ellipsis` |
-| `AdaptiveIcons.ellipsisVertical` | `Icons.more_horiz` | `CupertinoIcons.ellipsis_vertical` |
+| `AdaptiveIcons.ellipsisVertical` | `Icons.more_vert_rounded` | `CupertinoIcons.ellipsis_vertical` |
 | `AdaptiveIcons.email` | `Icons.email_outlined` | `CupertinoIcons.mail` |
 | `AdaptiveIcons.emailRounded` | `Icons.email_rounded` | `CupertinoIcons.mail_solid` |
 | `AdaptiveIcons.emergency` | `Icons.emergency_outlined` | `CupertinoIcons.staroflife` |

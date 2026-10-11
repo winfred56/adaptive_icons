@@ -393,7 +393,7 @@ const Map<String, IconMapping> iconMappings = {
   ),
   'ellipsis': (android: 'Icons.more_horiz', ios: 'CupertinoIcons.ellipsis'),
   'ellipsis_vertical': (
-    android: 'Icons.more_horiz',
+    android: 'Icons.more_vert_rounded',
     ios: 'CupertinoIcons.ellipsis_vertical',
   ),
   'email': (android: 'Icons.email_outlined', ios: 'CupertinoIcons.mail'),

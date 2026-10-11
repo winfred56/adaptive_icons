@@ -518,7 +518,7 @@ class AdaptiveIcons {
 
   /// Adaptive version of [ellipsis_vertical]
   static IconData get ellipsisVertical => 
-      _isApple() ? CupertinoIcons.ellipsis_vertical : Icons.more_horiz;
+      _isApple() ? CupertinoIcons.ellipsis_vertical : Icons.more_vert_rounded;
 
   /// Adaptive version of [email]
   static IconData get email => 
